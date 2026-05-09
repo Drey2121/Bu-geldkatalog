@@ -1,0 +1,189 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0b1020;
+  color: white;
+}
+
+.app {
+  min-height: 100vh;
+  padding: 30px;
+  background: linear-gradient(to bottom, #0b1020, #111827);
+}
+
+.container {
+  max-width: 1600px;
+  margin: auto;
+}
+
+.warning {
+  text-align: center;
+  font-size: 20px;
+  color: #facc15;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.title {
+  text-align: center;
+  font-size: 58px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.search {
+  width: 100%;
+  padding: 16px;
+  border-radius: 14px;
+  border: none;
+  margin-bottom: 30px;
+  font-size: 18px;
+  background: #1f2937;
+  color: white;
+  box-sizing: border-box;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 420px;
+  gap: 25px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 18px;
+}
+
+.card {
+  background: #1f2937;
+  border-radius: 18px;
+  padding: 20px;
+  cursor: pointer;
+  transition: 0.2s;
+  border: 2px solid transparent;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  border-color: #6366f1;
+}
+
+.active {
+  border-color: #22c55e;
+  background: #162033;
+}
+
+.paragraph {
+  font-size: 15px;
+  color: #9ca3af;
+  margin-bottom: 10px;
+}
+
+.delikt {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.info {
+  color: #facc15;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.sidebar {
+  background: #111827;
+  border-radius: 20px;
+  padding: 25px;
+  height: fit-content;
+  position: sticky;
+  top: 20px;
+}
+
+.sidebar-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.stat-box {
+  background: #1f2937;
+  border-radius: 14px;
+  padding: 20px;
+}
+
+.stat-label {
+  color: #9ca3af;
+  margin-bottom: 10px;
+}
+
+.money {
+  color: #22c55e;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.haft {
+  color: #f97316;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.summary {
+  background: #1f2937;
+  border-radius: 14px;
+  padding: 18px;
+  max-height: 500px;
+  overflow-y: auto;
+  margin-bottom: 20px;
+}
+
+.summary-item {
+  margin-bottom: 14px;
+  line-height: 1.5;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.copy-btn,
+.clear-btn {
+  flex: 1;
+  padding: 14px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.copy-btn {
+  background: #facc15;
+  color: black;
+}
+
+.clear-btn {
+  background: #374151;
+  color: white;
+}
+
+@media (max-width: 1100px) {
+
+  .layout {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar {
+    position: relative;
+  }
+}
