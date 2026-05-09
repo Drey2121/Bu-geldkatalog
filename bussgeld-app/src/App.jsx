@@ -1360,7 +1360,11 @@ Haft: ${gesamtHaft} Monate
     </p>
 
     <p>
-      5. Haben Sie Ihre Rechte verstanden?
+      5. Sollte sich kein Richter im Staat befinden,
+so ubernimmt das LSPD die Judikative. Haben Sie Ihre Rechte verstanden?
+    </p>
+    <p>
+      6. Haben sie ihre Rechte verstanden?
     </p>
 
   </div>
