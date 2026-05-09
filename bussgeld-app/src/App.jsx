@@ -37,11 +37,20 @@ export default function App() {
     {
       kategorie: "STVO §2 - Straßenverkehr",
       paragraph: "§2 Abs. 1",
-      bussgeld: 3000,
+      bussgeld: 10000,
       haft: 10,
       delikt: "Gefährlicher Eingriff in den Straßenverkehr",
       beschlagnahmung: "Fahrzeug",
       notiz: "+4 Punkte"
+    },
+    {
+      kategorie: "STVO §2 - Straßenverkehr",
+      paragraph: "§2 Abs. 1.2",
+      bussgeld: 30000,
+      haft: 0,
+      delikt: "Widerrechtliches Parken oder Halten",
+      beschlagnahmung: "Fahrzeug",
+      notiz: "+2 Punkte"
     },
 {
   kategorie: "STVO §2 - Straßenverkehr",
@@ -86,7 +95,7 @@ export default function App() {
 {
   kategorie: "STVO §2 - Straßenverkehr",
   paragraph: "§2 Abs. 1.7",
-  bussgeld: 45000,
+  bussgeld: 4500,
   haft: 0,
   delikt: "Nichtbeachten der Vorfahrt",
   beschlagnahmung: "Verwarnung",
@@ -96,7 +105,7 @@ export default function App() {
 {
   kategorie: "STVO §2 - Straßenverkehr",
   paragraph: "§2 Abs. 1.8",
-  bussgeld: 200000,
+  bussgeld: 20000,
   haft: 15,
   delikt: "Fahren / Fliegen unter Drogeneinfluss",
   beschlagnahmung: "Führerschein + Fahrzeug + Waffen + Kommunikationsgeräte",
@@ -115,7 +124,7 @@ export default function App() {
 {
   kategorie: "STVO §2 - Straßenverkehr",
   paragraph: "§2 Abs. 2.1",
-  bussgeld: 250000,
+  bussgeld: 25000,
   haft: 15,
   delikt: "Illegales Straßenrennen",
   beschlagnahmung: "Führerschein + Fahrzeug + Waffen + Kommunikationsgeräte",
@@ -125,7 +134,7 @@ export default function App() {
 {
   kategorie: "STVO §2 - Straßenverkehr",
   paragraph: "§2 Abs. 2.2",
-  bussgeld: 350000,
+  bussgeld: 35000,
   haft: 20,
   delikt: "Flucht vor der Polizei",
   beschlagnahmung: "Führerschein + Fahrzeug + Waffen + Kommunikationsgeräte",
@@ -511,7 +520,7 @@ export default function App() {
 {
   kategorie: "StGB §3 - Körperliche Integrität",
   paragraph: "§3 Abs. 1.2 StGB",
-  bussgeld: 4000,
+  bussgeld: 40000,
   haft: 30,
   delikt: "Gefährliche Körperverletzung",
   beschlagnahmung: "Alle illegalen Gegenstände konfiszieren + Waffen + Handy etc",
