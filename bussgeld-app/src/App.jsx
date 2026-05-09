@@ -1120,7 +1120,7 @@ const filtered = delikte.filter((x) => {
         Exekutive - Höchstmaß: 60 Mon. Haft / 75.000 $ - mit DOJ: 90 Mon. / 100.000 $
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,1fr)_260px] gap-4">
+      <div className="grid grid-cols-1 lg:grid-cols-[1fr_360px] gap-4">
 
         <div className="bg-[#0d1320] border border-[#1e293b] rounded-2xl p-4">
 
@@ -1136,7 +1136,7 @@ const filtered = delikte.filter((x) => {
 
           </div>
 
-          <div className="overflow-x-auto overflow-y-auto max-h-[800px]">
+          <div className="overflow-auto max-h-[800px]">
 
             <table className="w-full border-collapse">
 
@@ -1234,7 +1234,7 @@ const filtered = delikte.filter((x) => {
 
         </div>
 
-        <div className="bg-[#0d1320] border border-[#1e293b] rounded-2xl p-4 h-fit sticky top-4">
+        <div className="bg-[#0d1320] border border-[#1e293b] rounded-2xl p-6 h-fit sticky top-4">
 
           <h2 className="text-2xl font-black mb-6">
             Strafen-Rechner
@@ -1248,7 +1248,7 @@ const filtered = delikte.filter((x) => {
                 GESAMT BUSSGELD
               </div>
 
-              <div className="text-2xl font-black text-green-400">
+              <div className="text-3xl font-black text-green-400">
                 ${gesamtBussgeld}
               </div>
 
