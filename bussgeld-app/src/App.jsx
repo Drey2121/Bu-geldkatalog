@@ -1302,13 +1302,13 @@ Bei 15 pkt. erfolgt der Führerschein entzug
                 {gesamtHaft} Mon.
               </div>
               </div>
-              <div className="bg-[#09111d] rounded-xl p-4">
+              <div className="bg-[#09111d] rounded-md p-2">
 
-  <div className="text-xs text-zinc-500 mb-2">
-    VERKEHRSPUNKTE
+  <div className="text-[10px] text-zinc-500 mb-1">
+    PUNKTE
   </div>
 
-  <div className="text-3xl font-black text-red-400">
+  <div className="text-lg font-black text-red-400">
     {gesamtPunkte}
   </div>
 
