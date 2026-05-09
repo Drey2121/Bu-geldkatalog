@@ -8,7 +8,7 @@ export default function App() {
     {
       kategorie: "STVO §1 - Fahrerlaubnis",
       paragraph: "§1 Abs. 1",
-      bussgeld: 1000,
+      bussgeld: 10000,
       haft: 0,
       delikt: "Fahrerlaubnis nicht mitgeführt",
       beschlagnahmung: "Verwarnung",
@@ -17,7 +17,7 @@ export default function App() {
     {
   kategorie: "STVO §1 - Fahrerlaubnis",
   paragraph: "§1 Abs. 2",
-  bussgeld: 1500,
+  bussgeld: 15000,
   haft: 0,
   delikt: "Fahren ohne gültige Fahrerlaubnis",
   beschlagnahmung: "Fahrzeug beschlagnahmen",
@@ -27,7 +27,7 @@ export default function App() {
 {
   kategorie: "STVO §1 - Fahrerlaubnis",
   paragraph: "§1 Abs. 3",
-  bussgeld: 3000,
+  bussgeld: 30000,
   haft: 0,
   delikt: "Fliegen ohne gültige Flugerlaubnis (Flugzeug / Helikopter etc.)",
   beschlagnahmung: "Flugzeug",
@@ -46,7 +46,7 @@ export default function App() {
 {
   kategorie: "STVO §2 - Straßenverkehr",
   paragraph: "§2 Abs. 1.3",
-  bussgeld: 1000,
+  bussgeld: 10000,
   haft: 0,
   delikt: "Nutzung eines elektronischen Gerätes beim Führen eines Fahrzeugs",
   beschlagnahmung: "Verwarnung",
@@ -56,7 +56,7 @@ export default function App() {
 {
   kategorie: "STVO §2 - Straßenverkehr",
   paragraph: "§2 Abs. 1.4",
-  bussgeld: 500,
+  bussgeld: 5000,
   haft: 0,
   delikt: "Fahren abseits der Straße",
   beschlagnahmung: "Verwarnung",
@@ -66,7 +66,7 @@ export default function App() {
 {
   kategorie: "STVO §2 - Straßenverkehr",
   paragraph: "§2 Abs. 1.5",
-  bussgeld: 500,
+  bussgeld: 5000,
   haft: 0,
   delikt: "Gefährliche Fahrweise",
   beschlagnahmung: "Fahrzeug",
@@ -76,7 +76,7 @@ export default function App() {
 {
   kategorie: "STVO §2 - Straßenverkehr",
   paragraph: "§2 Abs. 1.6",
-  bussgeld: 1000,
+  bussgeld: 10000,
   haft: 0,
   delikt: "Fahren entgegen der Fahrtrichtung",
   beschlagnahmung: "Fahrzeug",
@@ -86,7 +86,7 @@ export default function App() {
 {
   kategorie: "STVO §2 - Straßenverkehr",
   paragraph: "§2 Abs. 1.7",
-  bussgeld: 450,
+  bussgeld: 45000,
   haft: 0,
   delikt: "Nichtbeachten der Vorfahrt",
   beschlagnahmung: "Verwarnung",
@@ -96,7 +96,7 @@ export default function App() {
 {
   kategorie: "STVO §2 - Straßenverkehr",
   paragraph: "§2 Abs. 1.8",
-  bussgeld: 2000,
+  bussgeld: 200000,
   haft: 15,
   delikt: "Fahren / Fliegen unter Drogeneinfluss",
   beschlagnahmung: "Führerschein + Fahrzeug + Waffen + Kommunikationsgeräte",
@@ -106,7 +106,7 @@ export default function App() {
 {
   kategorie: "STVO §2 - Straßenverkehr",
   paragraph: "§2 Abs. 1.9",
-  bussgeld: 1250,
+  bussgeld: 12500,
   haft: 10,
   delikt: "Fahrerflucht",
   beschlagnahmung: "Führerschein + Fahrzeug + Waffen + Kommunikationsgeräte",
@@ -115,7 +115,7 @@ export default function App() {
 {
   kategorie: "STVO §2 - Straßenverkehr",
   paragraph: "§2 Abs. 2.1",
-  bussgeld: 2500,
+  bussgeld: 250000,
   haft: 15,
   delikt: "Illegales Straßenrennen",
   beschlagnahmung: "Führerschein + Fahrzeug + Waffen + Kommunikationsgeräte",
@@ -125,7 +125,7 @@ export default function App() {
 {
   kategorie: "STVO §2 - Straßenverkehr",
   paragraph: "§2 Abs. 2.2",
-  bussgeld: 3500,
+  bussgeld: 350000,
   haft: 20,
   delikt: "Flucht vor der Polizei",
   beschlagnahmung: "Führerschein + Fahrzeug + Waffen + Kommunikationsgeräte",
@@ -135,7 +135,7 @@ export default function App() {
 {
   kategorie: "STVO §2 - Straßenverkehr",
   paragraph: "§2 Abs. 2.3",
-  bussgeld: 1000,
+  bussgeld: 10000,
   haft: 0,
   delikt: "Fahren eines nicht straßenzulässigen Fahrzeugs",
   beschlagnahmung: "Fahrzeug",
@@ -145,7 +145,7 @@ export default function App() {
 {
   kategorie: "STVO §2 - Straßenverkehr",
   paragraph: "§2 Abs. 2.4",
-  bussgeld: 500,
+  bussgeld: 5000,
   haft: 0,
   delikt: "Unberechtigter Lärm",
   beschlagnahmung: "//",
@@ -155,7 +155,7 @@ export default function App() {
 {
   kategorie: "STVO §2 - Straßenverkehr",
   paragraph: "§2 Abs. 2.5",
-  bussgeld: 750,
+  bussgeld: 7500,
   haft: 0,
   delikt: "...über 30 km/h Innerorts",
   beschlagnahmung: "Alle Fahrerlaubnisse + Fahrzeug",
@@ -165,7 +165,7 @@ export default function App() {
 {
   kategorie: "STVO §2 - Straßenverkehr",
   paragraph: "§2 Abs. 2.6",
-  bussgeld: 750,
+  bussgeld: 7500,
   haft: 0,
   delikt: "...über 20 km/h Außerorts",
   beschlagnahmung: "Alle Fahrerlaubnisse + Fahrzeug",
@@ -175,7 +175,7 @@ export default function App() {
 {
   kategorie: "STVO §2 - Straßenverkehr",
   paragraph: "§2 Abs. 2.7",
-  bussgeld: 2750,
+  bussgeld: 27500,
   haft: 0,
   delikt: "Behinderung des Straßenverkehrs (Errichten von Blockaden)",
   beschlagnahmung: "//",
@@ -189,7 +189,7 @@ export default function App() {
 {
   kategorie: "LuftVG - Luftverkehr",
   paragraph: "§3 Abs. 1",
-  bussgeld: 2500,
+  bussgeld: 25000,
   haft: 20,
   delikt: "Unberechtigtes Überfliegen von Luftsperrgebieten",
   beschlagnahmung: "Luftfahrzeug + Flugschein",
@@ -199,7 +199,7 @@ export default function App() {
 {
   kategorie: "LuftVG - Luftverkehr",
   paragraph: "§3 Abs. 2",
-  bussgeld: 2000,
+  bussgeld: 20000,
   haft: 0,
   delikt: "Landen auf nicht genehmigten Landestellen / Bereichen / Straßen",
   beschlagnahmung: "Luftfahrzeug + Flugschein",
@@ -212,7 +212,7 @@ export default function App() {
 {
   kategorie: "BtMG - Drogenbesitz",
   paragraph: "§1 Abs. 1 BtMG",
-  bussgeld: 2000,
+  bussgeld: 20000,
   haft: 10,
   delikt: "Drogenbesitz im Haus",
   beschlagnahmung: "Hausinventar + Tascheninhalt",
@@ -222,7 +222,7 @@ export default function App() {
 {
   kategorie: "BtMG - Drogenbesitz",
   paragraph: "§1 Abs. 2 BtMG",
-  bussgeld: 2000,
+  bussgeld: 20000,
   haft: 20,
   delikt: "Drogenbesitz im Fahrzeug / Flugzeug",
   beschlagnahmung: "Fahrzeug + Tascheninhalt",
@@ -232,7 +232,7 @@ export default function App() {
 {
   kategorie: "BtMG - Drogenbesitz",
   paragraph: "§1 Abs. 3 BtMG",
-  bussgeld: 2500,
+  bussgeld: 25000,
   haft: 15,
   delikt: "Drogenbesitz an der Person",
   beschlagnahmung: "Rucksack + Inhalt",
@@ -242,7 +242,7 @@ export default function App() {
 {
   kategorie: "BtMG - Drogenbesitz",
   paragraph: "§1 Abs. 4 BtMG",
-  bussgeld: 3500,
+  bussgeld: 35000,
   haft: 20,
   delikt: "Drogenhandel Verkauf",
   beschlagnahmung: "Rucksack + Inhalt",
@@ -256,7 +256,7 @@ export default function App() {
 {
   kategorie: "StGB §1 - Wirtschaftskriminalität",
   paragraph: "§1 Abs. 1 StGB",
-  bussgeld: 2500,
+  bussgeld: 25000,
   haft: 0,
   delikt: "Versuchter Diebstahl eines PKW / LKW / Helikopter / Boot",
   beschlagnahmung: "//",
@@ -266,7 +266,7 @@ export default function App() {
 {
   kategorie: "StGB §1 - Wirtschaftskriminalität",
   paragraph: "§1 Abs. 1.2 StGB",
-  bussgeld: 2500,
+  bussgeld: 25000,
   haft: 10,
   delikt: "Diebstahl eines PKW / LKW / Helikopter / Boot",
   beschlagnahmung: "Fahrzeug + Fahrzeugstilllegung",
@@ -276,7 +276,7 @@ export default function App() {
 {
   kategorie: "StGB §1 - Wirtschaftskriminalität",
   paragraph: "§1 Abs. 1.3 StGB",
-  bussgeld: 3000,
+  bussgeld: 30000,
   haft: 15,
   delikt: "Raub (Personen)",
   beschlagnahmung: "Diebesgut",
@@ -286,7 +286,7 @@ export default function App() {
 {
   kategorie: "StGB §1 - Wirtschaftskriminalität",
   paragraph: "§1 Abs. 1.4 StGB",
-  bussgeld: 4500,
+  bussgeld: 45000,
   haft: 10,
   delikt: "Bestechung",
   beschlagnahmung: "Auch bei Beamten",
@@ -295,7 +295,7 @@ export default function App() {
 {
   kategorie: "StGB §1 - Wirtschaftskriminalität",
   paragraph: "§1 Abs. 1.5 StGB",
-  bussgeld: 8500,
+  bussgeld: 85000,
   haft: 30,
   delikt: "(Staats) Bankraub",
   beschlagnahmung: "Waffen + Fahrzeug + Rucksack + alles was mit dem Raub zu tun hat",
@@ -305,7 +305,7 @@ export default function App() {
 {
   kategorie: "StGB §1 - Wirtschaftskriminalität",
   paragraph: "§1 Abs. 1.6 StGB",
-  bussgeld: 8500,
+  bussgeld: 85000,
   haft: 30,
   delikt: "Juwelier / Yacht Raub",
   beschlagnahmung: "Waffen + Fahrzeug + Rucksack + alles was mit dem Raub zu tun hat",
@@ -315,7 +315,7 @@ export default function App() {
 {
   kategorie: "StGB §1 - Wirtschaftskriminalität",
   paragraph: "§1 Abs. 1.7 StGB",
-  bussgeld: 6000,
+  bussgeld: 60000,
   haft: 15,
   delikt: "Mittäterschaft bei Bank- / Juwelierraub",
   beschlagnahmung: "Waffen + Fahrzeug + Rucksack + alles was mit dem Raub zu tun hat",
@@ -325,7 +325,7 @@ export default function App() {
 {
   kategorie: "StGB §1 - Wirtschaftskriminalität",
   paragraph: "§1 Abs. 1.8 StGB",
-  bussgeld: 4500,
+  bussgeld: 45000,
   haft: 10,
   delikt: "ATM Raub",
   beschlagnahmung: "Waffen + Fahrzeug + Rucksack + alles was mit dem Raub zu tun hat",
@@ -335,7 +335,7 @@ export default function App() {
 {
   kategorie: "StGB §1 - Wirtschaftskriminalität",
   paragraph: "§1 Abs. 1.9 StGB",
-  bussgeld: 3500,
+  bussgeld: 35000,
   haft: 5,
   delikt: "Mittäterschaft bei ATM Raub",
   beschlagnahmung: "Waffen + Fahrzeug + Rucksack + alles was mit dem Raub zu tun hat",
@@ -355,7 +355,7 @@ export default function App() {
 {
   kategorie: "StGB §1 - Wirtschaftskriminalität",
   paragraph: "§1 Abs. 2.2 StGB",
-  bussgeld: 5500,
+  bussgeld: 55000,
   haft: 25,
   delikt: "Ladenraub",
   beschlagnahmung: "Waffen + Fahrzeug + Rucksack + alles was mit dem Raub zu tun hat",
@@ -365,7 +365,7 @@ export default function App() {
 {
   kategorie: "StGB §1 - Wirtschaftskriminalität",
   paragraph: "§1 Abs. 2.3 StGB",
-  bussgeld: 4000,
+  bussgeld: 40000,
   haft: 15,
   delikt: "Mittäterschaft bei Ladenraub",
   beschlagnahmung: "Waffen + Fahrzeug + Rucksack + alles was mit dem Raub zu tun hat",
@@ -375,7 +375,7 @@ export default function App() {
 {
   kategorie: "StGB §1 - Wirtschaftskriminalität",
   paragraph: "§1 Abs. 2.4 StGB",
-  bussgeld: 7500,
+  bussgeld: 75000,
   haft: 60,
   delikt: "Aservatenkammer Raub",
   beschlagnahmung: "Alle Tatmittel",
@@ -384,7 +384,7 @@ export default function App() {
 {
   kategorie: "StGB §1 - Wirtschaftskriminalität",
   paragraph: "§1 Abs. 2.5 StGB",
-  bussgeld: 3500,
+  bussgeld: 35000,
   haft: 15,
   delikt: "Besitz von Polizeimitteln",
   beschlagnahmung: "Alle staatlichen Gegenstände konfiszieren + Waffen + Handy etc",
@@ -394,7 +394,7 @@ export default function App() {
 {
   kategorie: "StGB §1 - Wirtschaftskriminalität",
   paragraph: "§1 Abs. 2.6 StGB",
-  bussgeld: 7500,
+  bussgeld: 75000,
   haft: 10,
   delikt: "Besitz illegaler Gegenstände",
   beschlagnahmung: "Alle illegalen Gegenstände / Geld konfiszieren + Waffen + Handy etc",
@@ -404,7 +404,7 @@ export default function App() {
 {
   kategorie: "StGB §1 - Wirtschaftskriminalität",
   paragraph: "§1 Abs. 2.7 StGB",
-  bussgeld: 7500,
+  bussgeld: 75000,
   haft: 10,
   delikt: "Besitz von Schwarzgeld",
   beschlagnahmung: "Alle illegalen Gegenstände / Geld konfiszieren + Waffen + Handy etc",
@@ -418,7 +418,7 @@ export default function App() {
 {
   kategorie: "StGB §2 - Waffengesetz",
   paragraph: "§2 Abs. 1 StGB",
-  bussgeld: 6500,
+  bussgeld: 65000,
   haft: 0,
   delikt: "Führen einer Waffe ohne Lizenz",
   beschlagnahmung: "Waffe konfiszieren",
@@ -428,7 +428,7 @@ export default function App() {
 {
   kategorie: "StGB §2 - Waffengesetz",
   paragraph: "§2 Abs. 1.2 StGB",
-  bussgeld: 11000,
+  bussgeld: 110000,
   haft: 25,
   delikt: "Missbrauch einer Waffe",
   beschlagnahmung: "Waffenschein entziehen",
@@ -438,7 +438,7 @@ export default function App() {
 {
   kategorie: "StGB §2 - Waffengesetz",
   paragraph: "§2 Abs. 1.3 StGB",
-  bussgeld: 6000,
+  bussgeld: 60000,
   haft: 30,
   delikt: "Besitz einer illegalen Waffe",
   beschlagnahmung: "Alle illegalen Gegenstände konfiszieren + Waffen + Handy etc",
@@ -467,7 +467,7 @@ export default function App() {
 {
   kategorie: "StGB §2 - Waffengesetz",
   paragraph: "§2 Abs. 1.6 StGB",
-  bussgeld: 4500,
+  bussgeld: 45000,
   haft: 0,
   delikt: "Besitz von illegalen Waffenmodifikationen ohne Waffenschein",
   beschlagnahmung: "//",
@@ -477,7 +477,7 @@ export default function App() {
 {
   kategorie: "StGB §2 - Waffengesetz",
   paragraph: "§2 Abs. 1.7 StGB",
-  bussgeld: 4000,
+  bussgeld: 40000,
   haft: 10,
   delikt: "Besitz von illegalen Waffenherstellungsteilen",
   beschlagnahmung: "Waffenherstellungsteile konfiszieren + Waffen + Handy etc",
@@ -487,7 +487,7 @@ export default function App() {
 {
   kategorie: "StGB §2 - Waffengesetz",
   paragraph: "§2 Abs. 1.8 StGB",
-  bussgeld: 5500,
+  bussgeld: 55000,
   haft: 20,
   delikt: "Handel von illegalen Waffenmodifikationen",
   beschlagnahmung: "Waffenmodifikationen konfiszieren + Waffen + Handy etc",
@@ -501,7 +501,7 @@ export default function App() {
 {
   kategorie: "StGB §3 - Körperliche Integrität",
   paragraph: "§3 Abs. 1 StGB",
-  bussgeld: 3500,
+  bussgeld: 35000,
   haft: 0,
   delikt: "Körperverletzung",
   beschlagnahmung: "//",
@@ -521,7 +521,7 @@ export default function App() {
 {
   kategorie: "StGB §3 - Körperliche Integrität",
   paragraph: "§3 Abs. 1.3 StGB",
-  bussgeld: 6000,
+  bussgeld: 60000,
   haft: 30,
   delikt: "Freiheitsberaubung",
   beschlagnahmung: "Alle illegalen Gegenstände konfiszieren + Waffen + Handy etc",
@@ -531,7 +531,7 @@ export default function App() {
 {
   kategorie: "StGB §3 - Körperliche Integrität",
   paragraph: "§3 Abs. 1.4 StGB",
-  bussgeld: 5000,
+  bussgeld: 50000,
   haft: 20,
   delikt: "Belästigung",
   beschlagnahmung: "Alle illegalen Gegenstände konfiszieren + Waffen + Handy etc",
@@ -541,7 +541,7 @@ export default function App() {
 {
   kategorie: "StGB §3 - Körperliche Integrität",
   paragraph: "§3 Abs. 1.5 StGB",
-  bussgeld: 6500,
+  bussgeld: 65000,
   haft: 30,
   delikt: "Geiselnahme",
   beschlagnahmung: "Alle illegalen Gegenstände konfiszieren + Waffen + Handy etc",
@@ -550,7 +550,7 @@ export default function App() {
 {
   kategorie: "StGB §3 - Körperliche Integrität",
   paragraph: "§3 Abs. 1.6 StGB",
-  bussgeld: 5000,
+  bussgeld: 50000,
   haft: 20,
   delikt: "Beihilfe zur Geiselnahme",
   beschlagnahmung: "Alle illegalen Gegenstände konfiszieren + Waffen + Handy etc",
@@ -560,7 +560,7 @@ export default function App() {
 {
   kategorie: "StGB §3 - Körperliche Integrität",
   paragraph: "§3 Abs. 1.7 StGB",
-  bussgeld: 3000,
+  bussgeld: 30000,
   haft: 0,
   delikt: "Beleidigung",
   beschlagnahmung: "//",
@@ -570,7 +570,7 @@ export default function App() {
 {
   kategorie: "StGB §3 - Körperliche Integrität",
   paragraph: "§3 Abs. 1.8 StGB",
-  bussgeld: 3500,
+  bussgeld: 35000,
   haft: 15,
   delikt: "Drohung",
   beschlagnahmung: "Alle illegalen Gegenstände konfiszieren + Waffen + Handy etc",
@@ -580,7 +580,7 @@ export default function App() {
 {
   kategorie: "StGB §3 - Körperliche Integrität",
   paragraph: "§3 Abs. 1.9 StGB",
-  bussgeld: 8500,
+  bussgeld: 85000,
   haft: 30,
   delikt: "Versuchter Mord",
   beschlagnahmung: "Waffe + Fahrzeug + Rucksackinhalt",
@@ -590,7 +590,7 @@ export default function App() {
 {
   kategorie: "StGB §3 - Körperliche Integrität",
   paragraph: "§3 Abs. 2.1 StGB",
-  bussgeld: 12500,
+  bussgeld: 125000,
   haft: 60,
   delikt: "Mord",
   beschlagnahmung: "Alle illegalen Gegenstände konfiszieren + Waffen",
@@ -600,7 +600,7 @@ export default function App() {
 {
   kategorie: "StGB §3 - Körperliche Integrität",
   paragraph: "§3 Abs. 2.2 StGB",
-  bussgeld: 3500,
+  bussgeld: 35000,
   haft: 0,
   delikt: "Unterlassene Hilfeleistung",
   beschlagnahmung: "//",
@@ -614,7 +614,7 @@ export default function App() {
 {
   kategorie: "StGB §4 - Umgang mit Beamten",
   paragraph: "§4 Abs. 1 StGB",
-  bussgeld: 2500,
+  bussgeld: 25000,
   haft: 0,
   delikt: "Missachtung polizeilicher Anweisungen",
   beschlagnahmung: "//",
@@ -624,7 +624,7 @@ export default function App() {
 {
   kategorie: "StGB §4 - Umgang mit Beamten",
   paragraph: "§4 Abs. 1.2 StGB",
-  bussgeld: 5700,
+  bussgeld: 57000,
   haft: 10,
   delikt: "Widerstand gegen Vollstreckungsbeamte",
   beschlagnahmung: "Alle illegalen Gegenstände konfiszieren + Waffen + Handy etc",
@@ -634,7 +634,7 @@ export default function App() {
 {
   kategorie: "StGB §4 - Umgang mit Beamten",
   paragraph: "§4 Abs. 1.3 StGB",
-  bussgeld: 3500,
+  bussgeld: 35000,
   haft: 0,
   delikt: "Behinderung eines Beamten bei der Ausführung seiner Arbeit",
   beschlagnahmung: "ggf. Verhaftung bis Ende des Einsatzes",
@@ -643,7 +643,7 @@ export default function App() {
 {
   kategorie: "StGB §4 - Umgang mit Beamten",
   paragraph: "§4 Abs. 1.4 StGB",
-  bussgeld: 1500,
+  bussgeld: 15000,
   haft: 10,
   delikt: "Belästigung / Beleidigung eines Beamten",
   beschlagnahmung: "Alle illegalen Gegenstände konfiszieren + Waffen + Handy etc",
@@ -653,7 +653,7 @@ export default function App() {
 {
   kategorie: "StGB §4 - Umgang mit Beamten",
   paragraph: "§4 Abs. 1.5 StGB",
-  bussgeld: 5000,
+  bussgeld: 50000,
   haft: 30,
   delikt: "Permanente Belästigung von Beamten",
   beschlagnahmung: "Alle illegalen Gegenstände konfiszieren + Waffen + Handy etc",
@@ -663,7 +663,7 @@ export default function App() {
 {
   kategorie: "StGB §4 - Umgang mit Beamten",
   paragraph: "§4 Abs. 1.6 StGB",
-  bussgeld: 4000,
+  bussgeld: 40000,
   haft: 20,
   delikt: "Falschaussage",
   beschlagnahmung: "Alle illegalen Gegenstände konfiszieren + Waffen + Handy etc",
@@ -673,7 +673,7 @@ export default function App() {
 {
   kategorie: "StGB §4 - Umgang mit Beamten",
   paragraph: "§4 Abs. 1.7 StGB",
-  bussgeld: 2500,
+  bussgeld: 25000,
   haft: 20,
   delikt: "Vortäuschen einer Straftat",
   beschlagnahmung: "//",
@@ -687,7 +687,7 @@ export default function App() {
 {
   kategorie: "StGB §5 - Gefängnisausbruch",
   paragraph: "§5 Abs. 1.1 StGB",
-  bussgeld: 7000,
+  bussgeld: 70000,
   haft: 60,
   delikt: "Strafe für Flüchtige",
   beschlagnahmung: "Alle illegalen Gegenstände konfiszieren + Waffen + Handy etc",
@@ -697,7 +697,7 @@ export default function App() {
 {
   kategorie: "StGB §5 - Gefängnisausbruch",
   paragraph: "§5 Abs. 1.2 StGB",
-  bussgeld: 6000,
+  bussgeld: 60000,
   haft: 40,
   delikt: "Strafe für Helfer",
   beschlagnahmung: "Alle illegalen Gegenstände konfiszieren + Waffen + Handy etc",
@@ -707,7 +707,7 @@ export default function App() {
 {
   kategorie: "StGB §5 - Gefängnisausbruch",
   paragraph: "§5 Abs. 1.3 StGB",
-  bussgeld: 6000,
+  bussgeld: 60000,
   haft: 40,
   delikt: "Beihilfe zur Flucht",
   beschlagnahmung: "Alle illegalen Gegenstände konfiszieren + Waffen + Handy etc",
@@ -721,7 +721,7 @@ export default function App() {
 {
   kategorie: "StGB §6 - Sonstige Delikte",
   paragraph: "§6 Abs. 1 StGB",
-  bussgeld: 4500,
+  bussgeld: 45000,
   haft: 0,
   delikt: "Betreten von Sperrzonen ohne Genehmigung / Nicht Einhalten Platzverweis",
   beschlagnahmung: "//",
@@ -731,7 +731,7 @@ export default function App() {
 {
   kategorie: "StGB §6 - Sonstige Delikte",
   paragraph: "§6 Abs. 1.2 StGB",
-  bussgeld: 3000,
+  bussgeld: 30000,
   haft: 0,
   delikt: "Durchbrechen von Absperrungen",
   beschlagnahmung: "Fahrzeug",
@@ -740,7 +740,7 @@ export default function App() {
 {
   kategorie: "StGB §6 - Sonstige Delikte",
   paragraph: "§6 Abs. 1.3 StGB",
-  bussgeld: 2000,
+  bussgeld: 20000,
   haft: 0,
   delikt: "Vermummungsverbot (50% des Gesichts verdeckt) / nach Aufforderung",
   beschlagnahmung: "Maske / Sturmhaube etc.",
@@ -750,7 +750,7 @@ export default function App() {
 {
   kategorie: "StGB §6 - Sonstige Delikte",
   paragraph: "§6 Abs. 1.4 StGB",
-  bussgeld: 6000,
+  bussgeld: 60000,
   haft: 20,
   delikt: "Amtsanmaßung",
   beschlagnahmung: "Polizei Gegenstände",
@@ -760,7 +760,7 @@ export default function App() {
 {
   kategorie: "StGB §6 - Sonstige Delikte",
   paragraph: "§6 Abs. 1.5 StGB",
-  bussgeld: 4000,
+  bussgeld: 40000,
   haft: 0,
   delikt: "Missbrauch des Notrufs",
   beschlagnahmung: "//",
@@ -770,7 +770,7 @@ export default function App() {
 {
   kategorie: "StGB §6 - Sonstige Delikte",
   paragraph: "§6 Abs. 1.6 StGB",
-  bussgeld: 1500,
+  bussgeld: 15000,
   haft: 0,
   delikt: "Sachbeschädigung",
   beschlagnahmung: "//",
@@ -780,7 +780,7 @@ export default function App() {
 {
   kategorie: "StGB §6 - Sonstige Delikte",
   paragraph: "§6 Abs. 1.7 StGB",
-  bussgeld: 3500,
+  bussgeld: 35000,
   haft: 20,
   delikt: "Hausfriedensbruch",
   beschlagnahmung: "//",
@@ -790,7 +790,7 @@ export default function App() {
 {
   kategorie: "StGB §6 - Sonstige Delikte",
   paragraph: "§6 Abs. 1.8 StGB",
-  bussgeld: 6000,
+  bussgeld: 60000,
   haft: 30,
   delikt: "Vertuschung von Straftaten / Vernichtung von Beweismitteln",
   beschlagnahmung: "Waffe + Fahrzeug + Rucksackinhalt",
@@ -800,7 +800,7 @@ export default function App() {
 {
   kategorie: "StGB §6 - Sonstige Delikte",
   paragraph: "§6 Abs. 1.9 StGB",
-  bussgeld: 4000,
+  bussgeld: 40000,
   haft: 0,
   delikt: "Zwangsheirat",
   beschlagnahmung: "//",
@@ -810,7 +810,7 @@ export default function App() {
 {
   kategorie: "StGB §6 - Sonstige Delikte",
   paragraph: "§6 Abs. 2.1 StGB",
-  bussgeld: 3000,
+  bussgeld: 30000,
   haft: 0,
   delikt: "Unangemeldetes Gewerbe",
   beschlagnahmung: "//",
@@ -820,7 +820,7 @@ export default function App() {
 {
   kategorie: "StGB §6 - Sonstige Delikte",
   paragraph: "§6 Abs. 2.2 StGB",
-  bussgeld: 4500,
+  bussgeld: 45000,
   haft: 0,
   delikt: "Unangemeldetes Gewerbe nach mehrfachen Verwarnungen",
   beschlagnahmung: "//",
@@ -830,7 +830,7 @@ export default function App() {
 {
   kategorie: "StGB §6 - Sonstige Delikte",
   paragraph: "§6 Abs. 2.3 StGB",
-  bussgeld: 800,
+  bussgeld: 8000,
   haft: 0,
   delikt: "Lärmbelästigung in jeglicher Art",
   beschlagnahmung: "//",
@@ -839,7 +839,7 @@ export default function App() {
 {
   kategorie: "StGB §6 - Sonstige Delikte",
   paragraph: "§6 Abs. 2.4 StGB",
-  bussgeld: 7500,
+  bussgeld: 75000,
   haft: 20,
   delikt: "Stalking",
   beschlagnahmung: "//",
@@ -849,7 +849,7 @@ export default function App() {
 {
   kategorie: "StGB §6 - Sonstige Delikte",
   paragraph: "§6 Abs. 2.5 StGB",
-  bussgeld: 4000,
+  bussgeld: 40000,
   haft: 0,
   delikt: "Auslösen eines Fehlalarms",
   beschlagnahmung: "//",
@@ -863,7 +863,7 @@ export default function App() {
 {
   kategorie: "BBG §1 - Verhaltensfehler im Dienst",
   paragraph: "§1 Abs. 1 BBG",
-  bussgeld: 4500,
+  bussgeld: 45000,
   haft: 0,
   delikt: "Grundloses Anlegen von Handschellen",
   beschlagnahmung: "//",
@@ -873,7 +873,7 @@ export default function App() {
 {
   kategorie: "BBG §1 - Verhaltensfehler im Dienst",
   paragraph: "§1 Abs. 1.2 BBG",
-  bussgeld: 3500,
+  bussgeld: 35000,
   haft: 0,
   delikt: "Unberechtigte Durchsuchung eines Fahrzeugs",
   beschlagnahmung: "//",
@@ -883,7 +883,7 @@ export default function App() {
 {
   kategorie: "BBG §1 - Verhaltensfehler im Dienst",
   paragraph: "§1 Abs. 1.3 BBG",
-  bussgeld: 2500,
+  bussgeld: 25000,
   haft: 0,
   delikt: "Unberechtigte Durchsuchung einer Person",
   beschlagnahmung: "//",
@@ -893,7 +893,7 @@ export default function App() {
 {
   kategorie: "BBG §1 - Verhaltensfehler im Dienst",
   paragraph: "§1 Abs. 1.4 BBG",
-  bussgeld: 6000,
+  bussgeld: 60000,
   haft: 0,
   delikt: "Unberechtigter Einsatz von Taser",
   beschlagnahmung: "//",
@@ -903,7 +903,7 @@ export default function App() {
 {
   kategorie: "BBG §1 - Verhaltensfehler im Dienst",
   paragraph: "§1 Abs. 1.5 BBG",
-  bussgeld: 10000,
+  bussgeld: 100000,
   haft: 0,
   delikt: "Unberechtigter Einsatz von Schusswaffen",
   beschlagnahmung: "Waffe + Polizei Waffenschein",
@@ -913,7 +913,7 @@ export default function App() {
 {
   kategorie: "BBG §1 - Verhaltensfehler im Dienst",
   paragraph: "§1 Abs. 1.6 BBG",
-  bussgeld: 2500,
+  bussgeld: 25000,
   haft: 0,
   delikt: "Unberechtigter Einsatz von Warnsignalen",
   beschlagnahmung: "//",
@@ -932,7 +932,7 @@ export default function App() {
 {
   kategorie: "BBG §1 - Verhaltensfehler im Dienst",
   paragraph: "§1 Abs. 1.8 BBG",
-  bussgeld: 5000,
+  bussgeld: 50000,
   haft: 0,
   delikt: "Nicht diensttaugliches Verhalten",
   beschlagnahmung: "//",
@@ -942,7 +942,7 @@ export default function App() {
 {
   kategorie: "BBG §1 - Verhaltensfehler im Dienst",
   paragraph: "§1 Abs. 1.9 BBG",
-  bussgeld: 3500,
+  bussgeld: 35000,
   haft: 0,
   delikt: "Nicht Einhaltung der Dienstvorschriften",
   beschlagnahmung: "//",
@@ -952,7 +952,7 @@ export default function App() {
 {
   kategorie: "BBG §1 - Verhaltensfehler im Dienst",
   paragraph: "§1 Abs. 1.10 BBG",
-  bussgeld: 7000,
+  bussgeld: 70000,
   haft: 0,
   delikt: "OnDuty-Verstoß",
   beschlagnahmung: "//",
@@ -962,7 +962,7 @@ export default function App() {
 {
   kategorie: "BBG §1 - Verhaltensfehler im Dienst",
   paragraph: "§1 Abs. 1.11 BBG",
-  bussgeld: 7500,
+  bussgeld: 75000,
   haft: 0,
   delikt: "Nicht Abnahme illegaler Gegenstände oder Telefon des TVs",
   beschlagnahmung: "//",
@@ -972,7 +972,7 @@ export default function App() {
 {
   kategorie: "BBG §1 - Verhaltensfehler im Dienst",
   paragraph: "§1 Abs. 1.12 BBG",
-  bussgeld: 6000,
+  bussgeld: 60000,
   haft: 0,
   delikt: "Gefährdung von Zivilisten oder Kollegen",
   beschlagnahmung: "//",
@@ -986,7 +986,7 @@ export default function App() {
 {
   kategorie: "BBG §2 - Körperliche Integrität",
   paragraph: "§2 Abs. 1 BBG",
-  bussgeld: 8000,
+  bussgeld: 80000,
   haft: 0,
   delikt: "Körperverletzung durch Schusswaffengebrauch",
   beschlagnahmung: "Waffe + Polizei Waffenschein",
@@ -996,7 +996,7 @@ export default function App() {
 {
   kategorie: "BBG §2 - Körperliche Integrität",
   paragraph: "§2 Abs. 2 BBG",
-  bussgeld: 10000,
+  bussgeld: 100000,
   haft: 0,
   delikt: "Körperverletzung mit Todesfolge durch Schusswaffengebrauch",
   beschlagnahmung: "Waffe + Polizei Waffenschein",
@@ -1006,7 +1006,7 @@ export default function App() {
 {
   kategorie: "BBG §2 - Körperliche Integrität",
   paragraph: "§2 Abs. 3 BBG",
-  bussgeld: 5000,
+  bussgeld: 50000,
   haft: 0,
   delikt: "Körperverletzung durch Tazergebrauch",
   beschlagnahmung: "Tazer",
@@ -1117,7 +1117,7 @@ const filtered = delikte.filter((x) => {
 
 </div>
       <div className="bg-[#0d1320] border border-[#1e293b] rounded-2xl p-4 mb-4 text-sm text-zinc-300">
-        Exekutive - Höchstmaß: 60 Mon. Haft / 75.000 $ - mit DOJ: 90 Mon. / 100.000 $
+        Exekutive - Höchstmaß: 60 Mon. Haft / 150.000 $ - mit DOJ: 90 Mon. / 200.000 $
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-[1fr_360px] gap-4">
