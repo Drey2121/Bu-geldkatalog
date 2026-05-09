@@ -1334,7 +1334,7 @@ Haft: ${gesamtHaft} Monate
   </button>
 </div>
 
-<div className="bg-[#1b1034] border border-purple-500/30 rounded-xl p-4 mt-4">
+<div className="col-span-2 bg-[#1b1034] border border-purple-500/30 rounded-xl p-4 mt-4">
 
   <div className="text-purple-300 font-bold mb-3">
     Rechtsbelehrung
