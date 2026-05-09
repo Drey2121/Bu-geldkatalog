@@ -10,15 +10,18 @@ export default function App() {
       paragraph: "§1 Abs. 1",
       bussgeld: 10000,
       haft: 0,
+      punkte: 2,
       delikt: "Fahrerlaubnis nicht mitgeführt",
       beschlagnahmung: "Verwarnung",
       notiz: "+2 Punkte"
+      
     },
     {
   kategorie: "STVO §1 - Fahrerlaubnis",
   paragraph: "§1 Abs. 2",
   bussgeld: 15000,
   haft: 0,
+  punkte: 5,
   delikt: "Fahren ohne gültige Fahrerlaubnis",
   beschlagnahmung: "Fahrzeug beschlagnahmen",
   notiz: "Akteneintrag = +5 Verkehrspunkte"
@@ -29,6 +32,7 @@ export default function App() {
   paragraph: "§1 Abs. 3",
   bussgeld: 30000,
   haft: 0,
+  punkte: 8,
   delikt: "Fliegen ohne gültige Flugerlaubnis (Flugzeug / Helikopter etc.)",
   beschlagnahmung: "Flugzeug",
   notiz: "Akteneintrag = +8 Verkehrspunkte"
@@ -39,6 +43,7 @@ export default function App() {
       paragraph: "§2 Abs. 1",
       bussgeld: 10000,
       haft: 10,
+      punkte: 4,
       delikt: "Gefährlicher Eingriff in den Straßenverkehr",
       beschlagnahmung: "Fahrzeug",
       notiz: "+4 Punkte"
@@ -48,6 +53,7 @@ export default function App() {
       paragraph: "§2 Abs. 1.2",
       bussgeld: 30000,
       haft: 0,
+      punkte: 2,
       delikt: "Widerrechtliches Parken oder Halten",
       beschlagnahmung: "Fahrzeug",
       notiz: "+2 Punkte"
@@ -57,6 +63,7 @@ export default function App() {
   paragraph: "§2 Abs. 1.3",
   bussgeld: 10000,
   haft: 0,
+  punkte: 1,
   delikt: "Nutzung eines elektronischen Gerätes beim Führen eines Fahrzeugs",
   beschlagnahmung: "Verwarnung",
   notiz: "Verwarnung + 1 Verkehrspunkt"
@@ -67,6 +74,7 @@ export default function App() {
   paragraph: "§2 Abs. 1.4",
   bussgeld: 5000,
   haft: 0,
+  punkte: 2,
   delikt: "Fahren abseits der Straße",
   beschlagnahmung: "Verwarnung",
   notiz: "Akteneintrag = +2 Verkehrspunkte"
@@ -77,6 +85,7 @@ export default function App() {
   paragraph: "§2 Abs. 1.5",
   bussgeld: 5000,
   haft: 0,
+  punkte: 4,
   delikt: "Gefährliche Fahrweise",
   beschlagnahmung: "Fahrzeug",
   notiz: "Akteneintrag = +4 Verkehrspunkte"
@@ -87,6 +96,7 @@ export default function App() {
   paragraph: "§2 Abs. 1.6",
   bussgeld: 10000,
   haft: 0,
+  punkte: 3,
   delikt: "Fahren entgegen der Fahrtrichtung",
   beschlagnahmung: "Fahrzeug",
   notiz: "Akteneintrag = +3 Verkehrspunkte"
@@ -97,6 +107,7 @@ export default function App() {
   paragraph: "§2 Abs. 1.7",
   bussgeld: 4500,
   haft: 0,
+  punkte: 2,
   delikt: "Nichtbeachten der Vorfahrt",
   beschlagnahmung: "Verwarnung",
   notiz: "Akteneintrag = +2 Verkehrspunkte"
@@ -107,6 +118,7 @@ export default function App() {
   paragraph: "§2 Abs. 1.8",
   bussgeld: 20000,
   haft: 15,
+  punkte: 6,
   delikt: "Fahren / Fliegen unter Drogeneinfluss",
   beschlagnahmung: "Führerschein + Fahrzeug + Waffen + Kommunikationsgeräte",
   notiz: "Akteneintrag = +6 Verkehrspunkte"
@@ -117,6 +129,7 @@ export default function App() {
   paragraph: "§2 Abs. 1.9",
   bussgeld: 12500,
   haft: 10,
+  punkte: 8,
   delikt: "Fahrerflucht",
   beschlagnahmung: "Führerschein + Fahrzeug + Waffen + Kommunikationsgeräte",
   notiz: "Akteneintrag = +8 Verkehrspunkte"
@@ -126,6 +139,7 @@ export default function App() {
   paragraph: "§2 Abs. 2.1",
   bussgeld: 25000,
   haft: 15,
+  punkte: 7,
   delikt: "Illegales Straßenrennen",
   beschlagnahmung: "Führerschein + Fahrzeug + Waffen + Kommunikationsgeräte",
   notiz: "Akteneintrag = +7 Verkehrspunkte"
@@ -136,6 +150,7 @@ export default function App() {
   paragraph: "§2 Abs. 2.2",
   bussgeld: 35000,
   haft: 20,
+  punkte: 2,
   delikt: "Flucht vor der Polizei",
   beschlagnahmung: "Führerschein + Fahrzeug + Waffen + Kommunikationsgeräte",
   notiz: "Akteneintrag = +2 Verkehrspunkte"
@@ -146,6 +161,7 @@ export default function App() {
   paragraph: "§2 Abs. 2.3",
   bussgeld: 10000,
   haft: 0,
+  punkte: 2,
   delikt: "Fahren eines nicht straßenzulässigen Fahrzeugs",
   beschlagnahmung: "Fahrzeug",
   notiz: "Akteneintrag = +2 Verkehrspunkte"
@@ -166,6 +182,7 @@ export default function App() {
   paragraph: "§2 Abs. 2.5",
   bussgeld: 7500,
   haft: 0,
+  punkte: 2,
   delikt: "...über 30 km/h Innerorts",
   beschlagnahmung: "Alle Fahrerlaubnisse + Fahrzeug",
   notiz: "Akteneintrag = +2 Verkehrspunkte"
@@ -176,6 +193,7 @@ export default function App() {
   paragraph: "§2 Abs. 2.6",
   bussgeld: 7500,
   haft: 0,
+  punkte: 2,
   delikt: "...über 20 km/h Außerorts",
   beschlagnahmung: "Alle Fahrerlaubnisse + Fahrzeug",
   notiz: "Akteneintrag = +2 Verkehrspunkte"
@@ -186,6 +204,7 @@ export default function App() {
   paragraph: "§2 Abs. 2.7",
   bussgeld: 27500,
   haft: 0,
+  punkte: 5,
   delikt: "Behinderung des Straßenverkehrs (Errichten von Blockaden)",
   beschlagnahmung: "//",
   notiz: "Akteneintrag = +5 Verkehrspunkte"
@@ -200,6 +219,7 @@ export default function App() {
   paragraph: "§3 Abs. 1",
   bussgeld: 25000,
   haft: 20,
+  punkte: 2,
   delikt: "Unberechtigtes Überfliegen von Luftsperrgebieten",
   beschlagnahmung: "Luftfahrzeug + Flugschein",
   notiz: "Akteneintrag = +2 Verkehrspunkte"
@@ -210,6 +230,7 @@ export default function App() {
   paragraph: "§3 Abs. 2",
   bussgeld: 20000,
   haft: 0,
+  punkte: 4,
   delikt: "Landen auf nicht genehmigten Landestellen / Bereichen / Straßen",
   beschlagnahmung: "Luftfahrzeug + Flugschein",
   notiz: "Akteneintrag = +4 Verkehrspunkte"
@@ -1082,6 +1103,12 @@ const filtered = delikte.filter((x) => {
     );
 
   }, [selected]);
+  const gesamtPunkte = useMemo(() => {
+  return selected.reduce(
+    (sum, x) => sum + (x.punkte || 0),
+    0
+  );
+}, [selected]);
 
  return (
 
@@ -1126,7 +1153,9 @@ const filtered = delikte.filter((x) => {
 
 </div>
       <div className="bg-[#0d1320] border border-[#1e293b] rounded-2xl p-4 mb-4 text-sm text-zinc-300">
-        Exekutive - Höchstmaß: 60 Mon. Haft / 150.000 $ - mit DOJ: 90 Mon. / 200.000 $
+        Exekutive - Höchstmaß: 60 Mon. Haft / 150.000 $ - mit DOJ: 90 Mon. / 200.000 $  
+ 	
+Bei 15 pkt. erfolgt der Führerschein entzug
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-[1fr_360px] gap-4">
@@ -1273,6 +1302,17 @@ const filtered = delikte.filter((x) => {
                 {gesamtHaft} Mon.
               </div>
               </div>
+              <div className="bg-[#09111d] rounded-xl p-4">
+
+  <div className="text-xs text-zinc-500 mb-2">
+    VERKEHRSPUNKTE
+  </div>
+
+  <div className="text-3xl font-black text-red-400">
+    {gesamtPunkte}
+  </div>
+
+</div>
 
 <div className="bg-[#09111d] rounded-xl p-4 mt-4">
 
