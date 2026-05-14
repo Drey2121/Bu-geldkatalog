@@ -1153,7 +1153,7 @@ const filtered = delikte.filter((x) => {
 
 </div>
       <div className="bg-[#0d1320] border border-[#1e293b] rounded-2xl p-4 mb-4 text-sm text-zinc-300">
-        Exekutive - Höchstmaß: 60 Mon. Haft / 300.000 $ für Familien / 150.000$ für Zivis - mit DOJ: 90 Mon. / 500.000 $ für Familien / 250.000 $ für Zivis.
+        Exekutive - Höchstmaß: 60 Mon. Haft / 150.000 $ für Familien / 100.000$ für Zivis - mit DOJ: 90 Mon. / 250.000 $ für Familien / 150.000 $ für Zivis. Familien - 12er - 1 mio. (mind. 10 von einer Familie müssen beteiligt sein) 
  	
 Bei 15 pkt. erfolgt der Führerschein entzug
       </div>
