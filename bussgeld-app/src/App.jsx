@@ -5,96 +5,81 @@ export default function App() {
 
   const delikte = [
 
+
+// =============================
+// STVO - Straßenverkehrsordnung
+// =============================
+
     {
-      kategorie: "STVO §1 - Fahrerlaubnis",
-      paragraph: "§1 Abs. 1",
-      bussgeld: 10000,
-      haft: 0,
-      punkte: 2,
-      delikt: "Fahrerlaubnis nicht mitgeführt",
-      beschlagnahmung: "Verwarnung",
-      notiz: "+2 Punkte"
-      
-    },
-    {
-  kategorie: "STVO §1 - Fahrerlaubnis",
+       kategorie: "STVO §1 - Fahrerlaubnis",
   paragraph: "§1 Abs. 2",
-  bussgeld: 15000,
+  bussgeld: 10000,
   haft: 0,
   punkte: 5,
   delikt: "Fahren ohne gültige Fahrerlaubnis",
   beschlagnahmung: "Fahrzeug beschlagnahmen",
   notiz: "Akteneintrag = +5 Verkehrspunkte"
+      
+    },
+    {
+  kategorie: "STVO §1 - Fahrerlaubnis",
+  paragraph: "§1 Abs. 2",
+  bussgeld: 25000,
+  haft: 10,
+  punkte: 5,
+  delikt: "Wiederholtes Fahren ohne gültige Fahrerlaubnis",
+  beschlagnahmung: "Führerschein und Fahrzeug beschlagnahmen",
+  notiz: "Akteneintrag = +5 Verkehrspunkte"
 },
 
 {
-  kategorie: "STVO §1 - Fahrerlaubnis",
+  kategorie: "STVO §1 - Straßenverkehr",
   paragraph: "§1 Abs. 3",
-  bussgeld: 30000,
+  bussgeld: 15000,
   haft: 0,
   punkte: 8,
-  delikt: "Fliegen ohne gültige Flugerlaubnis (Flugzeug / Helikopter etc.)",
-  beschlagnahmung: "Flugzeug",
+  delikt: "Lärmbelästigung",
+  beschlagnahmung: "Verwarnung",
   notiz: "Akteneintrag = +8 Verkehrspunkte"
 },
 
     {
-      kategorie: "STVO §2 - Straßenverkehr",
-      paragraph: "§2 Abs. 1",
-      bussgeld: 10000,
-      haft: 10,
+      kategorie: "STVO §1 - Straßenverkehr",
+      paragraph: "§1 Abs. 4",
+      bussgeld: 20000,
+      haft: 0,
       punkte: 4,
-      delikt: "Gefährlicher Eingriff in den Straßenverkehr",
+      delikt: "Rammen von Beamtenfahrzeugen",
       beschlagnahmung: "Fahrzeug",
       notiz: "+4 Punkte"
     },
+
     {
-      kategorie: "STVO §2 - Straßenverkehr",
-      paragraph: "§2 Abs. 1.2",
-      bussgeld: 30000,
+      kategorie: "STVO §1 - Straßenverkehr",
+      paragraph: "§2 Abs. 1",
+      bussgeld: 5000,
       haft: 0,
-      punkte: 2,
-      delikt: "Widerrechtliches Parken oder Halten",
-      beschlagnahmung: "Fahrzeug",
-      notiz: "+2 Punkte"
+      punkte: 4,
+      delikt: "Fahren mit einem leicht beschädigten Fahrzeug",
+      beschlagnahmung: "Verwarnung",
+      notiz: "+4 Punkte"
     },
-{
-  kategorie: "STVO §2 - Straßenverkehr",
-  paragraph: "§2 Abs. 1.3",
-  bussgeld: 10000,
-  haft: 0,
-  punkte: 1,
-  delikt: "Nutzung eines elektronischen Gerätes beim Führen eines Fahrzeugs",
-  beschlagnahmung: "Verwarnung",
-  notiz: "Verwarnung + 1 Verkehrspunkt"
-},
 
-{
-  kategorie: "STVO §2 - Straßenverkehr",
-  paragraph: "§2 Abs. 1.4",
-  bussgeld: 5000,
-  haft: 0,
-  punkte: 2,
-  delikt: "Fahren abseits der Straße",
-  beschlagnahmung: "Verwarnung",
-  notiz: "Akteneintrag = +2 Verkehrspunkte"
-},
+    {
+      kategorie: "STVO §1 - Straßenverkehr",
+      paragraph: "§2 Abs. 2",
+      bussgeld: 10000,
+      haft: 0,
+      punkte: 4,
+      delikt: "Fahren mit einem schwer beschädigten Fahrzeug",
+      beschlagnahmung: "Verwarnung",
+      notiz: "+4 Punkte"
+    },
 
-{
+    {
   kategorie: "STVO §2 - Straßenverkehr",
-  paragraph: "§2 Abs. 1.5",
-  bussgeld: 5000,
-  haft: 0,
-  punkte: 4,
-  delikt: "Gefährliche Fahrweise",
-  beschlagnahmung: "Fahrzeug",
-  notiz: "Akteneintrag = +4 Verkehrspunkte"
-},
-
-{
-  kategorie: "STVO §2 - Straßenverkehr",
-  paragraph: "§2 Abs. 1.6",
-  bussgeld: 10000,
+  paragraph: "§2 Abs. 3",
+  bussgeld: 15000,
   haft: 0,
   punkte: 3,
   delikt: "Fahren entgegen der Fahrtrichtung",
@@ -102,107 +87,21 @@ export default function App() {
   notiz: "Akteneintrag = +3 Verkehrspunkte"
 },
 
-{
-  kategorie: "STVO §2 - Straßenverkehr",
-  paragraph: "§2 Abs. 1.7",
-  bussgeld: 4500,
-  haft: 0,
-  punkte: 2,
-  delikt: "Nichtbeachten der Vorfahrt",
-  beschlagnahmung: "Verwarnung",
-  notiz: "Akteneintrag = +2 Verkehrspunkte"
-},
+    {
+      kategorie: "STVO §2 - Straßenverkehr",
+      paragraph: "§2 Abs. 4",
+      bussgeld: 30000,
+      haft: 0,
+      punkte: 4,
+      delikt: "Falschparken",
+      beschlagnahmung: "Fahrzeug",
+      notiz: "+4 Punkte"
+    },
 
 {
   kategorie: "STVO §2 - Straßenverkehr",
-  paragraph: "§2 Abs. 1.8",
-  bussgeld: 20000,
-  haft: 15,
-  punkte: 6,
-  delikt: "Fahren / Fliegen unter Drogeneinfluss",
-  beschlagnahmung: "Führerschein + Fahrzeug + Waffen + Kommunikationsgeräte",
-  notiz: "Akteneintrag = +6 Verkehrspunkte"
-},
-
-{
-  kategorie: "STVO §2 - Straßenverkehr",
-  paragraph: "§2 Abs. 1.9",
-  bussgeld: 12500,
-  haft: 10,
-  punkte: 8,
-  delikt: "Fahrerflucht",
-  beschlagnahmung: "Führerschein + Fahrzeug + Waffen + Kommunikationsgeräte",
-  notiz: "Akteneintrag = +8 Verkehrspunkte"
-},
-{
-  kategorie: "STVO §2 - Straßenverkehr",
-  paragraph: "§2 Abs. 2.1",
+  paragraph: "§2 Abs. 5",
   bussgeld: 25000,
-  haft: 15,
-  punkte: 7,
-  delikt: "Illegales Straßenrennen",
-  beschlagnahmung: "Führerschein + Fahrzeug + Waffen + Kommunikationsgeräte",
-  notiz: "Akteneintrag = +7 Verkehrspunkte"
-},
-
-{
-  kategorie: "STVO §2 - Straßenverkehr",
-  paragraph: "§2 Abs. 2.2",
-  bussgeld: 35000,
-  haft: 20,
-  punkte: 2,
-  delikt: "Flucht vor der Polizei",
-  beschlagnahmung: "Führerschein + Fahrzeug + Waffen + Kommunikationsgeräte",
-  notiz: "Akteneintrag = +2 Verkehrspunkte"
-},
-
-{
-  kategorie: "STVO §2 - Straßenverkehr",
-  paragraph: "§2 Abs. 2.3",
-  bussgeld: 10000,
-  haft: 0,
-  punkte: 2,
-  delikt: "Fahren eines nicht straßenzulässigen Fahrzeugs",
-  beschlagnahmung: "Fahrzeug",
-  notiz: "Akteneintrag = +2 Verkehrspunkte"
-},
-
-{
-  kategorie: "STVO §2 - Straßenverkehr",
-  paragraph: "§2 Abs. 2.4",
-  bussgeld: 5000,
-  haft: 0,
-  delikt: "Unberechtigter Lärm",
-  beschlagnahmung: "//",
-  notiz: "-"
-},
-
-{
-  kategorie: "STVO §2 - Straßenverkehr",
-  paragraph: "§2 Abs. 2.5",
-  bussgeld: 7500,
-  haft: 0,
-  punkte: 2,
-  delikt: "...über 30 km/h Innerorts",
-  beschlagnahmung: "Alle Fahrerlaubnisse + Fahrzeug",
-  notiz: "Akteneintrag = +2 Verkehrspunkte"
-},
-
-{
-  kategorie: "STVO §2 - Straßenverkehr",
-  paragraph: "§2 Abs. 2.6",
-  bussgeld: 7500,
-  haft: 0,
-  punkte: 2,
-  delikt: "...über 20 km/h Außerorts",
-  beschlagnahmung: "Alle Fahrerlaubnisse + Fahrzeug",
-  notiz: "Akteneintrag = +2 Verkehrspunkte"
-},
-
-{
-  kategorie: "STVO §2 - Straßenverkehr",
-  paragraph: "§2 Abs. 2.7",
-  bussgeld: 27500,
   haft: 0,
   punkte: 5,
   delikt: "Behinderung des Straßenverkehrs (Errichten von Blockaden)",
@@ -210,51 +109,26 @@ export default function App() {
   notiz: "Akteneintrag = +5 Verkehrspunkte"
 },
 
-// =========================
-// LuftVG
-// =========================
-
-{
-  kategorie: "LuftVG - Luftverkehr",
-  paragraph: "§3 Abs. 1",
-  bussgeld: 25000,
-  haft: 20,
-  punkte: 2,
-  delikt: "Unberechtigtes Überfliegen von Luftsperrgebieten",
-  beschlagnahmung: "Luftfahrzeug + Flugschein",
-  notiz: "Akteneintrag = +2 Verkehrspunkte"
-},
-
-{
-  kategorie: "LuftVG - Luftverkehr",
-  paragraph: "§3 Abs. 2",
-  bussgeld: 20000,
-  haft: 0,
-  punkte: 4,
-  delikt: "Landen auf nicht genehmigten Landestellen / Bereichen / Straßen",
-  beschlagnahmung: "Luftfahrzeug + Flugschein",
-  notiz: "Akteneintrag = +4 Verkehrspunkte"
-},
-// =========================
-// BtMG
-// =========================
+// =============================
+// BtMG - Betäubungsmittelgesetz
+// =============================
 
 {
   kategorie: "BtMG - Drogenbesitz",
   paragraph: "§1 Abs. 1 BtMG",
-  bussgeld: 20000,
-  haft: 10,
-  delikt: "Drogenbesitz im Haus",
-  beschlagnahmung: "Hausinventar + Tascheninhalt",
+  bussgeld: 25000,
+  haft: 15,
+  delikt: "Herstellung von Betäubungsmitteln",
+  beschlagnahmung: "Tascheninhalt + Fahrzeuginhalt",
   notiz: "Akteneintrag"
 },
 
 {
   kategorie: "BtMG - Drogenbesitz",
   paragraph: "§1 Abs. 2 BtMG",
-  bussgeld: 20000,
-  haft: 20,
-  delikt: "Drogenbesitz im Fahrzeug / Flugzeug",
+  bussgeld: 25000,
+  haft: 15,
+  delikt: "Transport von Betäubungsmitteln",
   beschlagnahmung: "Fahrzeug + Tascheninhalt",
   notiz: "Akteneintrag"
 },
@@ -262,296 +136,165 @@ export default function App() {
 {
   kategorie: "BtMG - Drogenbesitz",
   paragraph: "§1 Abs. 3 BtMG",
-  bussgeld: 25000,
-  haft: 15,
+  bussgeld: 35000,
+  haft: 20,
   delikt: "Drogenbesitz an der Person",
   beschlagnahmung: "Rucksack + Inhalt",
-  notiz: "Akteneintrag"
+  notiz: "Bis 10 eigenbedarf; Akteneintrag"
 },
 
 {
   kategorie: "BtMG - Drogenbesitz",
   paragraph: "§1 Abs. 4 BtMG",
-  bussgeld: 35000,
-  haft: 20,
-  delikt: "Drogenhandel Verkauf",
+  bussgeld: 10000,
+  haft: 0,
+  delikt: "Konsum von Betäubungsmitteln",
   beschlagnahmung: "Rucksack + Inhalt",
   notiz: "Akteneintrag"
 },
 
 // =========================
-// StGB §1 Wirtschaftskriminalität
+// WG - Waffengesetz
 // =========================
 
 {
-  kategorie: "StGB §1 - Wirtschaftskriminalität",
-  paragraph: "§1 Abs. 1 StGB",
-  bussgeld: 25000,
-  haft: 0,
-  delikt: "Versuchter Diebstahl eines PKW / LKW / Helikopter / Boot",
-  beschlagnahmung: "//",
+  kategorie: "WG - Waffengesetz",
+  paragraph: "§1 Abs. 1 WG",
+  bussgeld: 15000,
+  haft: 20,
+  delikt: "Besitz einer illegalen Kurzwaffe",
+  beschlagnahmung: "Alle illegalen Gegenstände konfiszieren + Waffen + Handy etc",
   notiz: "Akteneintrag"
 },
 
 {
-  kategorie: "StGB §1 - Wirtschaftskriminalität",
-  paragraph: "§1 Abs. 1.2 StGB",
-  bussgeld: 25000,
-  haft: 10,
-  delikt: "Diebstahl eines PKW / LKW / Helikopter / Boot",
-  beschlagnahmung: "Fahrzeug + Fahrzeugstilllegung",
+  kategorie: "WG - Waffengesetz",
+  paragraph: "§1 Abs. 2 WG",
+  bussgeld: 200000,
+  haft: 100,
+  delikt: "Besitz/Benutzung einer illegalen Kriegswaffe",
+  beschlagnahmung: "Alle illegalen Gegenstände konfiszieren + Waffen + Handy etc",
   notiz: "Akteneintrag"
 },
 
 {
-  kategorie: "StGB §1 - Wirtschaftskriminalität",
-  paragraph: "§1 Abs. 1.3 StGB",
-  bussgeld: 30000,
+  kategorie: "WG - Waffengesetz",
+  paragraph: "§1 Abs. 3 WG",
+  bussgeld: 15000,
   haft: 15,
-  delikt: "Raub (Personen)",
-  beschlagnahmung: "Diebesgut",
-  notiz: "Akteneintrag"
-},
-
-{
-  kategorie: "StGB §1 - Wirtschaftskriminalität",
-  paragraph: "§1 Abs. 1.4 StGB",
-  bussgeld: 45000,
-  haft: 10,
-  delikt: "Bestechung",
-  beschlagnahmung: "Auch bei Beamten",
-  notiz: "Akteneintrag"
-},
-{
-  kategorie: "StGB §1 - Wirtschaftskriminalität",
-  paragraph: "§1 Abs. 1.5 StGB",
-  bussgeld: 85000,
-  haft: 30,
-  delikt: "(Staats) Bankraub",
-  beschlagnahmung: "Waffen + Fahrzeug + Rucksack + alles was mit dem Raub zu tun hat",
-  notiz: "FIB muss dazugezogen werden!"
-},
-
-{
-  kategorie: "StGB §1 - Wirtschaftskriminalität",
-  paragraph: "§1 Abs. 1.6 StGB",
-  bussgeld: 85000,
-  haft: 30,
-  delikt: "Juwelier / Yacht Raub",
-  beschlagnahmung: "Waffen + Fahrzeug + Rucksack + alles was mit dem Raub zu tun hat",
-  notiz: "Akteneintrag"
-},
-
-{
-  kategorie: "StGB §1 - Wirtschaftskriminalität",
-  paragraph: "§1 Abs. 1.7 StGB",
-  bussgeld: 60000,
-  haft: 15,
-  delikt: "Mittäterschaft bei Bank- / Juwelierraub",
-  beschlagnahmung: "Waffen + Fahrzeug + Rucksack + alles was mit dem Raub zu tun hat",
-  notiz: "Akteneintrag"
-},
-
-{
-  kategorie: "StGB §1 - Wirtschaftskriminalität",
-  paragraph: "§1 Abs. 1.8 StGB",
-  bussgeld: 45000,
-  haft: 10,
-  delikt: "ATM Raub",
-  beschlagnahmung: "Waffen + Fahrzeug + Rucksack + alles was mit dem Raub zu tun hat",
-  notiz: "Akteneintrag"
-},
-
-{
-  kategorie: "StGB §1 - Wirtschaftskriminalität",
-  paragraph: "§1 Abs. 1.9 StGB",
-  bussgeld: 35000,
-  haft: 5,
-  delikt: "Mittäterschaft bei ATM Raub",
-  beschlagnahmung: "Waffen + Fahrzeug + Rucksack + alles was mit dem Raub zu tun hat",
-  notiz: "Akteneintrag"
-},
-
-{
-  kategorie: "StGB §1 - Wirtschaftskriminalität",
-  paragraph: "§1 Abs. 2.1 StGB",
-  bussgeld: 0,
-  haft: 0,
-  delikt: "Terrorstatus",
-  beschlagnahmung: "//",
-  notiz: "Dokumente müssen vom FIB erhalten werden"
-},
-
-{
-  kategorie: "StGB §1 - Wirtschaftskriminalität",
-  paragraph: "§1 Abs. 2.2 StGB",
-  bussgeld: 55000,
-  haft: 25,
-  delikt: "Ladenraub",
-  beschlagnahmung: "Waffen + Fahrzeug + Rucksack + alles was mit dem Raub zu tun hat",
-  notiz: "Akteneintrag"
-},
-
-{
-  kategorie: "StGB §1 - Wirtschaftskriminalität",
-  paragraph: "§1 Abs. 2.3 StGB",
-  bussgeld: 40000,
-  haft: 15,
-  delikt: "Mittäterschaft bei Ladenraub",
-  beschlagnahmung: "Waffen + Fahrzeug + Rucksack + alles was mit dem Raub zu tun hat",
-  notiz: "Akteneintrag"
-},
-
-{
-  kategorie: "StGB §1 - Wirtschaftskriminalität",
-  paragraph: "§1 Abs. 2.4 StGB",
-  bussgeld: 75000,
-  haft: 60,
-  delikt: "Aservatenkammer Raub",
-  beschlagnahmung: "Alle Tatmittel",
-  notiz: "FIB muss dazugezogen werden!"
-},
-{
-  kategorie: "StGB §1 - Wirtschaftskriminalität",
-  paragraph: "§1 Abs. 2.5 StGB",
-  bussgeld: 35000,
-  haft: 15,
-  delikt: "Besitz von Polizeimitteln",
-  beschlagnahmung: "Alle staatlichen Gegenstände konfiszieren + Waffen + Handy etc",
-  notiz: "Akteneintrag"
-},
-
-{
-  kategorie: "StGB §1 - Wirtschaftskriminalität",
-  paragraph: "§1 Abs. 2.6 StGB",
-  bussgeld: 75000,
-  haft: 10,
-  delikt: "Besitz illegaler Gegenstände",
-  beschlagnahmung: "Alle illegalen Gegenstände / Geld konfiszieren + Waffen + Handy etc",
-  notiz: "Akteneintrag"
-},
-
-{
-  kategorie: "StGB §1 - Wirtschaftskriminalität",
-  paragraph: "§1 Abs. 2.7 StGB",
-  bussgeld: 75000,
-  haft: 10,
-  delikt: "Besitz von Schwarzgeld",
-  beschlagnahmung: "Alle illegalen Gegenstände / Geld konfiszieren + Waffen + Handy etc",
-  notiz: "Akteneintrag"
-},
-
-// =========================
-// StGB §2 - Waffengesetz
-// =========================
-
-{
-  kategorie: "StGB §2 - Waffengesetz",
-  paragraph: "§2 Abs. 1 StGB",
-  bussgeld: 65000,
-  haft: 0,
   delikt: "Führen einer Waffe ohne Lizenz",
   beschlagnahmung: "Waffe konfiszieren",
   notiz: "Akteneintrag"
 },
 
 {
-  kategorie: "StGB §2 - Waffengesetz",
-  paragraph: "§2 Abs. 1.2 StGB",
-  bussgeld: 110000,
-  haft: 25,
-  delikt: "Missbrauch einer Waffe",
-  beschlagnahmung: "Waffenschein entziehen",
-  notiz: "Akteneintrag"
-},
-
-{
-  kategorie: "StGB §2 - Waffengesetz",
-  paragraph: "§2 Abs. 1.3 StGB",
-  bussgeld: 60000,
-  haft: 30,
-  delikt: "Besitz einer illegalen Waffe",
-  beschlagnahmung: "Alle illegalen Gegenstände konfiszieren + Waffen + Handy etc",
-  notiz: "Akteneintrag"
-},
-
-{
-  kategorie: "StGB §2 - Waffengesetz",
-  paragraph: "§2 Abs. 1.4 StGB",
-  bussgeld: 0,
-  haft: 0,
-  delikt: "Illegaler Waffenhandel aktiv betreiben (Verkaufen)",
-  beschlagnahmung: "Verfahren mit Unterstützung des DOJ",
-  notiz: "FIB muss dazugezogen werden!"
-},
-
-{
-  kategorie: "StGB §2 - Waffengesetz",
-  paragraph: "§2 Abs. 1.5 StGB",
-  bussgeld: 0,
-  haft: 0,
-  delikt: "Illegaler Waffenhandel passiv betreiben (Kaufen)",
-  beschlagnahmung: "Verfahren mit Unterstützung des DOJ",
-  notiz: "FIB muss dazugezogen werden!"
-},
-{
-  kategorie: "StGB §2 - Waffengesetz",
-  paragraph: "§2 Abs. 1.6 StGB",
-  bussgeld: 45000,
-  haft: 0,
-  delikt: "Besitz von illegalen Waffenmodifikationen ohne Waffenschein",
-  beschlagnahmung: "//",
-  notiz: "Akteneintrag"
-},
-
-{
-  kategorie: "StGB §2 - Waffengesetz",
-  paragraph: "§2 Abs. 1.7 StGB",
-  bussgeld: 40000,
-  haft: 10,
+  kategorie: "WG - Waffengesetz",
+  paragraph: "§1 Abs. 4 WG",
+  bussgeld: 10000,
+  haft: 15,
   delikt: "Besitz von illegalen Waffenherstellungsteilen",
   beschlagnahmung: "Waffenherstellungsteile konfiszieren + Waffen + Handy etc",
   notiz: "Akteneintrag"
 },
 
 {
-  kategorie: "StGB §2 - Waffengesetz",
-  paragraph: "§2 Abs. 1.8 StGB",
-  bussgeld: 55000,
+  kategorie: "WG - Waffengesetz",
+  paragraph: "§2 Abs. 1 WG",
+  bussgeld: 25000,
   haft: 20,
-  delikt: "Handel von illegalen Waffenmodifikationen",
-  beschlagnahmung: "Waffenmodifikationen konfiszieren + Waffen + Handy etc",
+  delikt: "Missbrauch einer illegalen Kurzwaffe",
+  beschlagnahmung: "Waffenschein entziehen",
+  notiz: "Akteneintrag"
+},
+
+{
+  kategorie: "WG - Waffengesetz",
+  paragraph: "§2 Abs. 2 WG",
+  bussgeld: 15000,
+  haft: 15,
+  delikt: "Missbrauch einer Waffe ohne Lizenz",
+  beschlagnahmung: "Waffenschein entziehen",
+  notiz: "Akteneintrag"
+},
+
+{
+  kategorie: "WG - Waffengesetz",
+  paragraph: "§1 Abs. 3 WG",
+  bussgeld: 15000,
+  haft: 15,
+  delikt: "Missbrauch einer Waffe für illegale Zwecke",
+  beschlagnahmung: "Waffenschein entziehen",
+  notiz: "Akteneintrag"
+},
+
+{
+  kategorie: "WG - Waffengesetz",
+  paragraph: "§2 Abs. 4 WG",
+  bussgeld: 50000,
+  haft: 50,
+  delikt: "Illegaler Waffenhandel aktiv betreiben (Verkaufen)",
+  beschlagnahmung: "Alle illegalen Gegenstände konfiszieren + Waffen + Handy etc",
   notiz: "Akteneintrag"
 },
 
 // =========================
-// StGB §3 - Körperliche Integrität
+// StGB §1-3 - Körperliche Integrität
 // =========================
 
 {
-  kategorie: "StGB §3 - Körperliche Integrität",
-  paragraph: "§3 Abs. 1 StGB",
-  bussgeld: 35000,
-  haft: 0,
+  kategorie: "StGB §1 - Körperliche Integrität",
+  paragraph: "§1 Abs. 1 StGB",
+  bussgeld: 10000,
+  haft: 10,
   delikt: "Körperverletzung",
   beschlagnahmung: "//",
   notiz: "Akteneintrag"
 },
 
 {
-  kategorie: "StGB §3 - Körperliche Integrität",
-  paragraph: "§3 Abs. 1.2 StGB",
-  bussgeld: 40000,
-  haft: 30,
+  kategorie: "StGB §1 - Körperliche Integrität",
+  paragraph: "§1 Abs. 2 StGB",
+  bussgeld: 15000,
+  haft: 15,
   delikt: "Gefährliche Körperverletzung",
   beschlagnahmung: "Alle illegalen Gegenstände konfiszieren + Waffen + Handy etc",
   notiz: "Akteneintrag"
 },
 
 {
-  kategorie: "StGB §3 - Körperliche Integrität",
-  paragraph: "§3 Abs. 1.3 StGB",
-  bussgeld: 60000,
+  kategorie: "StGB §1 - Körperliche Integrität",
+  paragraph: "§1 Abs. 3 StGB",
+  bussgeld: 20000,
+  haft: 20,
+  delikt: "Schwere Körperverletzung",
+  beschlagnahmung: "Alle illegalen Gegenstände konfiszieren + Waffen + Handy etc",
+  notiz: "Akteneintrag"
+},
+
+{
+  kategorie: "StGB §2 - Körperliche Integrität",
+  paragraph: "§2 Abs. 1 StGB",
+  bussgeld: 10000,
+  haft: 5,
+  delikt: "Beleidigung",
+  beschlagnahmung: "//",
+  notiz: "Akteneintrag"
+},
+
+{
+  kategorie: "StGB §2 - Körperliche Integrität",
+  paragraph: "§2 Abs. 2 StGB",
+  bussgeld: 10000,
+  haft: 20,
+  delikt: "Üble Nachrede",
+  beschlagnahmung: "//",
+  notiz: "Akteneintrag"
+},
+
+{
+  kategorie: "StGB §2 - Körperliche Integrität",
+  paragraph: "§2 Abs. 3 StGB",
+  bussgeld: 30000,
   haft: 30,
   delikt: "Freiheitsberaubung",
   beschlagnahmung: "Alle illegalen Gegenstände konfiszieren + Waffen + Handy etc",
@@ -559,49 +302,30 @@ export default function App() {
 },
 
 {
-  kategorie: "StGB §3 - Körperliche Integrität",
-  paragraph: "§3 Abs. 1.4 StGB",
-  bussgeld: 50000,
-  haft: 20,
-  delikt: "Belästigung",
-  beschlagnahmung: "Alle illegalen Gegenstände konfiszieren + Waffen + Handy etc",
-  notiz: "Akteneintrag"
-},
-
-{
-  kategorie: "StGB §3 - Körperliche Integrität",
-  paragraph: "§3 Abs. 1.5 StGB",
-  bussgeld: 65000,
-  haft: 30,
+  kategorie: "StGB §2 - Körperliche Integrität",
+  paragraph: "§2 Abs. 4 StGB",
+  bussgeld: 60000,
+  haft: 60,
   delikt: "Geiselnahme",
   beschlagnahmung: "Alle illegalen Gegenstände konfiszieren + Waffen + Handy etc",
   notiz: "Akteneintrag"
 },
+
 {
-  kategorie: "StGB §3 - Körperliche Integrität",
-  paragraph: "§3 Abs. 1.6 StGB",
-  bussgeld: 50000,
-  haft: 20,
-  delikt: "Beihilfe zur Geiselnahme",
+  kategorie: "StGB §2 - Körperliche Integrität",
+  paragraph: "§2 Abs. 5 StGB",
+  bussgeld: 10000,
+  haft: 10,
+  delikt: "Erpressung",
   beschlagnahmung: "Alle illegalen Gegenstände konfiszieren + Waffen + Handy etc",
   notiz: "Akteneintrag"
 },
 
 {
-  kategorie: "StGB §3 - Körperliche Integrität",
-  paragraph: "§3 Abs. 1.7 StGB",
-  bussgeld: 30000,
-  haft: 0,
-  delikt: "Beleidigung",
-  beschlagnahmung: "//",
-  notiz: "Akteneintrag"
-},
-
-{
-  kategorie: "StGB §3 - Körperliche Integrität",
-  paragraph: "§3 Abs. 1.8 StGB",
-  bussgeld: 35000,
-  haft: 15,
+  kategorie: "StGB §2 - Körperliche Integrität",
+  paragraph: "§2 Abs. 6 StGB",
+  bussgeld: 15000,
+  haft: 10,
   delikt: "Drohung",
   beschlagnahmung: "Alle illegalen Gegenstände konfiszieren + Waffen + Handy etc",
   notiz: "Akteneintrag"
@@ -609,28 +333,18 @@ export default function App() {
 
 {
   kategorie: "StGB §3 - Körperliche Integrität",
-  paragraph: "§3 Abs. 1.9 StGB",
-  bussgeld: 85000,
-  haft: 30,
-  delikt: "Versuchter Mord",
-  beschlagnahmung: "Waffe + Fahrzeug + Rucksackinhalt",
+  paragraph: "§3 Abs. 11 StGB",
+  bussgeld: 20000,
+  haft: 15,
+  delikt: "Belästigung",
+  beschlagnahmung: "Alle illegalen Gegenstände konfiszieren + Waffen + Handy etc",
   notiz: "Akteneintrag"
 },
 
 {
   kategorie: "StGB §3 - Körperliche Integrität",
-  paragraph: "§3 Abs. 2.1 StGB",
-  bussgeld: 125000,
-  haft: 60,
-  delikt: "Mord",
-  beschlagnahmung: "Alle illegalen Gegenstände konfiszieren + Waffen",
-  notiz: "FIB muss dazugezogen werden + Verfahren"
-},
-
-{
-  kategorie: "StGB §3 - Körperliche Integrität",
-  paragraph: "§3 Abs. 2.2 StGB",
-  bussgeld: 35000,
+  paragraph: "§3 Abs. 12 StGB",
+  bussgeld: 10000,
   haft: 0,
   delikt: "Unterlassene Hilfeleistung",
   beschlagnahmung: "//",
@@ -638,24 +352,108 @@ export default function App() {
 },
 
 // =========================
-// StGB §4 - Umgang mit Beamten
+// StGB §3 Wirtschaftskriminalität
 // =========================
 
 {
-  kategorie: "StGB §4 - Umgang mit Beamten",
-  paragraph: "§4 Abs. 1 StGB",
+  kategorie: "StGB §3 - Wirtschaftskriminalität",
+  paragraph: "§3 Abs. 1 StGB",
+  bussgeld: 10000,
+  haft: 10,
+  delikt: "Versuchter Diebstahl",
+  beschlagnahmung: "//",
+  notiz: "Akteneintrag"
+},
+
+{
+  kategorie: "StGB §3 - Wirtschaftskriminalität",
+  paragraph: "§3 Abs. 2 StGB",
+  bussgeld: 20000,
+  haft: 15,
+  delikt: "Diebstahl",
+  beschlagnahmung: "//",
+  notiz: "Akteneintrag"
+},
+
+{
+  kategorie: "StGB §3 - Wirtschaftskriminalität",
+  paragraph: "§3 Abs. 3 StGB",
   bussgeld: 25000,
+  haft: 25,
+  delikt: "Versuchter Raub",
+  beschlagnahmung: "//",
+  notiz: "Akteneintrag"
+},
+
+{
+  kategorie: "StGB §3 - Wirtschaftskriminalität",
+  paragraph: "§3 Abs. 4 StGB",
+  bussgeld: 30000,
+  haft: 30,
+  delikt: "Raub",
+  beschlagnahmung: "//",
+  notiz: "Akteneintrag"
+},
+
+{
+  kategorie: "StGB §3 - Wirtschaftskriminalität",
+  paragraph: "§3 Abs. 6 StGB",
+  bussgeld: 30000,
+  haft: 15,
+  delikt: "Besitz von Schwarzgeld",
+  beschlagnahmung: "Alle illegalen Gegenstände / Geld konfiszieren + Waffen + Handy etc",
+  notiz: "Akteneintrag"
+},
+
+{
+  kategorie: "StGB - Terrorstatus",
+  paragraph: "Terrorstatus",
+  bussgeld: 0,
   haft: 0,
-  delikt: "Missachtung polizeilicher Anweisungen",
+  delikt: "Terrorstatus",
+  beschlagnahmung: "//",
+  notiz: "GOV muss dabei sein"
+},
+
+// =========================
+// StGB §3 - Umgang mit Beamten
+// =========================
+
+{
+  kategorie: "StGB §3 - Umgang mit Beamten",
+  paragraph: "§3 Abs. 8 StGB",
+  bussgeld: 40000,
+  haft: 10,
+  delikt: "Vortäuschen einer Straftat",
+  beschlagnahmung: "//",
+  notiz: "Akteneintrag"
+},
+
+{
+  kategorie: "StGB §3 - Umgang mit Beamten",
+  paragraph: "§3 Abs. 9 StGB",
+  bussgeld: 50000,
+  haft: 0,
+  delikt: "Falschaussage",
   beschlagnahmung: "//",
   notiz: "Akteneintrag"
 },
 
 {
   kategorie: "StGB §4 - Umgang mit Beamten",
-  paragraph: "§4 Abs. 1.2 StGB",
-  bussgeld: 57000,
-  haft: 10,
+  paragraph: "§4 Abs. 1 StGB",
+  bussgeld: 20000,
+  haft: 5,
+  delikt: "Behinderung eines Beamten bei der Ausführung seiner Arbeit",
+  beschlagnahmung: "ggf. Verhaftung bis Ende des Einsatzes",
+  notiz: "Akteneintrag"
+},
+
+{
+  kategorie: "StGB §4 - Umgang mit Beamten",
+  paragraph: "§4 Abs. 2 StGB",
+  bussgeld: 30000,
+  haft: 30,
   delikt: "Widerstand gegen Vollstreckungsbeamte",
   beschlagnahmung: "Alle illegalen Gegenstände konfiszieren + Waffen + Handy etc",
   notiz: "Akteneintrag"
@@ -663,125 +461,156 @@ export default function App() {
 
 {
   kategorie: "StGB §4 - Umgang mit Beamten",
-  paragraph: "§4 Abs. 1.3 StGB",
-  bussgeld: 35000,
-  haft: 0,
-  delikt: "Behinderung eines Beamten bei der Ausführung seiner Arbeit",
-  beschlagnahmung: "ggf. Verhaftung bis Ende des Einsatzes",
-  notiz: "Akteneintrag"
-},
-{
-  kategorie: "StGB §4 - Umgang mit Beamten",
-  paragraph: "§4 Abs. 1.4 StGB",
-  bussgeld: 15000,
+  paragraph: "§4 Abs. 3 StGB",
+  bussgeld: 10000,
   haft: 10,
-  delikt: "Belästigung / Beleidigung eines Beamten",
-  beschlagnahmung: "Alle illegalen Gegenstände konfiszieren + Waffen + Handy etc",
-  notiz: "Akteneintrag"
-},
-
-{
-  kategorie: "StGB §4 - Umgang mit Beamten",
-  paragraph: "§4 Abs. 1.5 StGB",
-  bussgeld: 50000,
-  haft: 30,
-  delikt: "Permanente Belästigung von Beamten",
-  beschlagnahmung: "Alle illegalen Gegenstände konfiszieren + Waffen + Handy etc",
-  notiz: "Akteneintrag"
-},
-
-{
-  kategorie: "StGB §4 - Umgang mit Beamten",
-  paragraph: "§4 Abs. 1.6 StGB",
-  bussgeld: 40000,
-  haft: 20,
-  delikt: "Falschaussage",
-  beschlagnahmung: "Alle illegalen Gegenstände konfiszieren + Waffen + Handy etc",
-  notiz: "Akteneintrag"
-},
-
-{
-  kategorie: "StGB §4 - Umgang mit Beamten",
-  paragraph: "§4 Abs. 1.7 StGB",
-  bussgeld: 25000,
-  haft: 20,
-  delikt: "Vortäuschen einer Straftat",
+  delikt: "Missachtung polizeilicher Maßnahmen",
   beschlagnahmung: "//",
   notiz: "Akteneintrag"
 },
 
 // =========================
-// StGB §5 - Gefängnisausbruch
+// StGB §4 - Befreiung
 // =========================
 
 {
-  kategorie: "StGB §5 - Gefängnisausbruch",
-  paragraph: "§5 Abs. 1.1 StGB",
-  bussgeld: 70000,
-  haft: 60,
-  delikt: "Strafe für Flüchtige",
-  beschlagnahmung: "Alle illegalen Gegenstände konfiszieren + Waffen + Handy etc",
-  notiz: "-"
-},
-
-{
-  kategorie: "StGB §5 - Gefängnisausbruch",
-  paragraph: "§5 Abs. 1.2 StGB",
-  bussgeld: 60000,
-  haft: 40,
-  delikt: "Strafe für Helfer",
-  beschlagnahmung: "Alle illegalen Gegenstände konfiszieren + Waffen + Handy etc",
-  notiz: "-"
-},
-
-{
-  kategorie: "StGB §5 - Gefängnisausbruch",
-  paragraph: "§5 Abs. 1.3 StGB",
-  bussgeld: 60000,
-  haft: 40,
-  delikt: "Beihilfe zur Flucht",
-  beschlagnahmung: "Alle illegalen Gegenstände konfiszieren + Waffen + Handy etc",
-  notiz: "-"
-},
-
-// =========================
-// StGB §6 - Sonstige Delikte
-// =========================
-
-{
-  kategorie: "StGB §6 - Sonstige Delikte",
-  paragraph: "§6 Abs. 1 StGB",
-  bussgeld: 45000,
-  haft: 0,
-  delikt: "Betreten von Sperrzonen ohne Genehmigung / Nicht Einhalten Platzverweis",
-  beschlagnahmung: "//",
-  notiz: "Akteneintrag"
-},
-
-{
-  kategorie: "StGB §6 - Sonstige Delikte",
-  paragraph: "§6 Abs. 1.2 StGB",
+  kategorie: "StGB §4 - Befreiung",
+  paragraph: "§4 Abs. 4 StGB",
   bussgeld: 30000,
-  haft: 0,
-  delikt: "Durchbrechen von Absperrungen",
-  beschlagnahmung: "Fahrzeug",
+  haft: 30,
+  delikt: "Befreiung von TVs",
+  beschlagnahmung: "Alle illegalen Gegenstände konfiszieren + Waffen + Handy etc",
+  notiz: "-"
+},
+
+{
+  kategorie: "StGB §4 - Befreiung",
+  paragraph: "§4 Abs. 5 StGB",
+  bussgeld: 15000,
+  haft: 30,
+  delikt: "versuchter Gefängnisausbruch",
+  beschlagnahmung: "Alle illegalen Gegenstände konfiszieren + Waffen + Handy etc",
+  notiz: "-"
+},
+
+{
+  kategorie: "StGB §4 - Befreiung",
+  paragraph: "§4 Abs. 6 StGB",
+  bussgeld: 25000,
+  haft: 40,
+  delikt: "Beihilfe zum Ausbruch",
+  beschlagnahmung: "Alle illegalen Gegenstände konfiszieren + Waffen + Handy etc",
+  notiz: "-"
+},
+
+{
+  kategorie: "StGB §4 - Befreiung",
+  paragraph: "§4 Abs. 7 StGB",
+  bussgeld: 30000,
+  haft: 60,
+  delikt: "Gefängnisausbruch",
+  beschlagnahmung: "Alle illegalen Gegenstände konfiszieren + Waffen + Handy etc",
+  notiz: "-"
+},
+
+// =========================
+// StGB §2-4 - Sonstige Delikte
+// =========================
+{
+  kategorie: "StGB §2 - Sonstige Delikte",
+  paragraph: "§2 Abs. 7 StGB",
+  bussgeld: 5000,
+  haft: 15,
+  delikt: "Missachtung der Hausordnung",
+  beschlagnahmung: "//",
   notiz: "Akteneintrag"
 },
+
 {
-  kategorie: "StGB §6 - Sonstige Delikte",
-  paragraph: "§6 Abs. 1.3 StGB",
+  kategorie: "StGB §3 - Sonstige Delikte",
+  paragraph: "§3 Abs. 5 StGB",
   bussgeld: 20000,
   haft: 0,
+  delikt: "Sachbeschädigung",
+  beschlagnahmung: "//",
+  notiz: "Akteneintrag"
+},
+
+{
+  kategorie: "StGB §3 - Sonstige Delikte",
+  paragraph: "§3 Abs. 7 StGB",
+  bussgeld: 10000,
+  haft: 5,
   delikt: "Vermummungsverbot (50% des Gesichts verdeckt) / nach Aufforderung",
   beschlagnahmung: "Maske / Sturmhaube etc.",
   notiz: "Akteneintrag"
 },
 
 {
+  kategorie: "StGB §3 - Sonstige Delikte",
+  paragraph: "§3 Abs. 10 StGB",
+  bussgeld: 100000,
+  haft: 50,
+  delikt: "Meineid",
+  beschlagnahmung: "//",
+  notiz: "Akteneintrag"
+},
+
+{
+  kategorie: "StGB §4 - Sonstige Delikte",
+  paragraph: "§4 Abs. 10 StGB",
+  bussgeld: 30000,
+  haft: 20,
+  delikt: "Hausfriedensbruch",
+  beschlagnahmung: "//",
+  notiz: "Akteneintrag"
+},
+
+{
+  kategorie: "StGB §4 - Sonstige Delikte",
+  paragraph: "§4 Abs. 11 StGB",
+  bussgeld: 30000,
+  haft: 60,
+  delikt: "Verweigerung der Identitätsfeststellung",
+  beschlagnahmung: "//",
+  notiz: "Akteneintrag"
+},
+
+{
+  kategorie: "StGB §4 - Sonstige Delikte",
+  paragraph: "§4 Abs. 12 StGB",
+  bussgeld: 25000,
+  haft: 20,
+  delikt: "Betreten von Sperrzonen ohne Genehmigung / Nicht Einhalten Platzverweis",
+  beschlagnahmung: "//",
+  notiz: "Akteneintrag"
+},
+
+{
+  kategorie: "StGB §4 - Sonstige Delikte",
+  paragraph: "§4 Abs. 13 StGB",
+  bussgeld: 100000,
+  haft: 80,
+  delikt: "Offenbaren von Staatsgeheimnissen",
+  beschlagnahmung: "//",
+  notiz: "-"
+},
+
+{
+  kategorie: "StGB §4 - Sonstige Delikte",
+  paragraph: "§4 Abs. 14 StGB",
+  bussgeld: 30000,
+  haft: 30,
+  delikt: "Beihilfe",
+  beschlagnahmung: "//",
+  notiz: "-"
+},
+
+{
   kategorie: "StGB §6 - Sonstige Delikte",
   paragraph: "§6 Abs. 1.4 StGB",
-  bussgeld: 60000,
-  haft: 20,
+  bussgeld: 0,
+  haft: 0,
   delikt: "Amtsanmaßung",
   beschlagnahmung: "Polizei Gegenstände",
   notiz: "Akteneintrag"
@@ -790,98 +619,9 @@ export default function App() {
 {
   kategorie: "StGB §6 - Sonstige Delikte",
   paragraph: "§6 Abs. 1.5 StGB",
-  bussgeld: 40000,
+  bussgeld: 0,
   haft: 0,
   delikt: "Missbrauch des Notrufs",
-  beschlagnahmung: "//",
-  notiz: "Akteneintrag"
-},
-
-{
-  kategorie: "StGB §6 - Sonstige Delikte",
-  paragraph: "§6 Abs. 1.6 StGB",
-  bussgeld: 15000,
-  haft: 0,
-  delikt: "Sachbeschädigung",
-  beschlagnahmung: "//",
-  notiz: "Akteneintrag"
-},
-
-{
-  kategorie: "StGB §6 - Sonstige Delikte",
-  paragraph: "§6 Abs. 1.7 StGB",
-  bussgeld: 35000,
-  haft: 20,
-  delikt: "Hausfriedensbruch",
-  beschlagnahmung: "//",
-  notiz: "Akteneintrag"
-},
-
-{
-  kategorie: "StGB §6 - Sonstige Delikte",
-  paragraph: "§6 Abs. 1.8 StGB",
-  bussgeld: 60000,
-  haft: 30,
-  delikt: "Vertuschung von Straftaten / Vernichtung von Beweismitteln",
-  beschlagnahmung: "Waffe + Fahrzeug + Rucksackinhalt",
-  notiz: "Akteneintrag"
-},
-
-{
-  kategorie: "StGB §6 - Sonstige Delikte",
-  paragraph: "§6 Abs. 1.9 StGB",
-  bussgeld: 40000,
-  haft: 0,
-  delikt: "Zwangsheirat",
-  beschlagnahmung: "//",
-  notiz: "Akteneintrag"
-},
-
-{
-  kategorie: "StGB §6 - Sonstige Delikte",
-  paragraph: "§6 Abs. 2.1 StGB",
-  bussgeld: 30000,
-  haft: 0,
-  delikt: "Unangemeldetes Gewerbe",
-  beschlagnahmung: "//",
-  notiz: "Akteneintrag"
-},
-
-{
-  kategorie: "StGB §6 - Sonstige Delikte",
-  paragraph: "§6 Abs. 2.2 StGB",
-  bussgeld: 45000,
-  haft: 0,
-  delikt: "Unangemeldetes Gewerbe nach mehrfachen Verwarnungen",
-  beschlagnahmung: "//",
-  notiz: "Akteneintrag"
-},
-
-{
-  kategorie: "StGB §6 - Sonstige Delikte",
-  paragraph: "§6 Abs. 2.3 StGB",
-  bussgeld: 8000,
-  haft: 0,
-  delikt: "Lärmbelästigung in jeglicher Art",
-  beschlagnahmung: "//",
-  notiz: "Akteneintrag"
-},
-{
-  kategorie: "StGB §6 - Sonstige Delikte",
-  paragraph: "§6 Abs. 2.4 StGB",
-  bussgeld: 75000,
-  haft: 20,
-  delikt: "Stalking",
-  beschlagnahmung: "//",
-  notiz: "Akteneintrag"
-},
-
-{
-  kategorie: "StGB §6 - Sonstige Delikte",
-  paragraph: "§6 Abs. 2.5 StGB",
-  bussgeld: 40000,
-  haft: 0,
-  delikt: "Auslösen eines Fehlalarms",
   beschlagnahmung: "//",
   notiz: "Akteneintrag"
 },
@@ -893,155 +633,18 @@ export default function App() {
 {
   kategorie: "BBG §1 - Verhaltensfehler im Dienst",
   paragraph: "§1 Abs. 1 BBG",
-  bussgeld: 45000,
-  haft: 0,
-  delikt: "Grundloses Anlegen von Handschellen",
-  beschlagnahmung: "//",
-  notiz: "-"
-},
-
-{
-  kategorie: "BBG §1 - Verhaltensfehler im Dienst",
-  paragraph: "§1 Abs. 1.2 BBG",
-  bussgeld: 35000,
-  haft: 0,
-  delikt: "Unberechtigte Durchsuchung eines Fahrzeugs",
-  beschlagnahmung: "//",
-  notiz: "-"
-},
-
-{
-  kategorie: "BBG §1 - Verhaltensfehler im Dienst",
-  paragraph: "§1 Abs. 1.3 BBG",
-  bussgeld: 25000,
-  haft: 0,
-  delikt: "Unberechtigte Durchsuchung einer Person",
-  beschlagnahmung: "//",
-  notiz: "-"
-},
-
-{
-  kategorie: "BBG §1 - Verhaltensfehler im Dienst",
-  paragraph: "§1 Abs. 1.4 BBG",
-  bussgeld: 60000,
-  haft: 0,
-  delikt: "Unberechtigter Einsatz von Taser",
-  beschlagnahmung: "//",
-  notiz: "-"
-},
-
-{
-  kategorie: "BBG §1 - Verhaltensfehler im Dienst",
-  paragraph: "§1 Abs. 1.5 BBG",
-  bussgeld: 100000,
-  haft: 0,
-  delikt: "Unberechtigter Einsatz von Schusswaffen",
-  beschlagnahmung: "Waffe + Polizei Waffenschein",
-  notiz: "-"
-},
-
-{
-  kategorie: "BBG §1 - Verhaltensfehler im Dienst",
-  paragraph: "§1 Abs. 1.6 BBG",
-  bussgeld: 25000,
-  haft: 0,
-  delikt: "Unberechtigter Einsatz von Warnsignalen",
-  beschlagnahmung: "//",
-  notiz: "-"
-},
-{
-  kategorie: "BBG §1 - Verhaltensfehler im Dienst",
-  paragraph: "§1 Abs. 1.7 BBG",
-  bussgeld: 0,
-  haft: 120,
+  bussgeld: 200000,
+  haft: 100,
   delikt: "Korruption",
   beschlagnahmung: "Waffe + Polizei Waffenschein + Dienstmarke",
   notiz: "-"
 },
 
-{
-  kategorie: "BBG §1 - Verhaltensfehler im Dienst",
-  paragraph: "§1 Abs. 1.8 BBG",
-  bussgeld: 50000,
-  haft: 0,
-  delikt: "Nicht diensttaugliches Verhalten",
-  beschlagnahmung: "//",
-  notiz: "-"
-},
-
-{
-  kategorie: "BBG §1 - Verhaltensfehler im Dienst",
-  paragraph: "§1 Abs. 1.9 BBG",
-  bussgeld: 35000,
-  haft: 0,
-  delikt: "Nicht Einhaltung der Dienstvorschriften",
-  beschlagnahmung: "//",
-  notiz: "-"
-},
-
-{
-  kategorie: "BBG §1 - Verhaltensfehler im Dienst",
-  paragraph: "§1 Abs. 1.10 BBG",
-  bussgeld: 70000,
-  haft: 0,
-  delikt: "OnDuty-Verstoß",
-  beschlagnahmung: "//",
-  notiz: "-"
-},
-
-{
-  kategorie: "BBG §1 - Verhaltensfehler im Dienst",
-  paragraph: "§1 Abs. 1.11 BBG",
-  bussgeld: 75000,
-  haft: 0,
-  delikt: "Nicht Abnahme illegaler Gegenstände oder Telefon des TVs",
-  beschlagnahmung: "//",
-  notiz: "-"
-},
-
-{
-  kategorie: "BBG §1 - Verhaltensfehler im Dienst",
-  paragraph: "§1 Abs. 1.12 BBG",
-  bussgeld: 60000,
-  haft: 0,
-  delikt: "Gefährdung von Zivilisten oder Kollegen",
-  beschlagnahmung: "//",
-  notiz: "-"
-},
 
 // =========================
 // BBG §2 - Körperliche Integrität
 // =========================
 
-{
-  kategorie: "BBG §2 - Körperliche Integrität",
-  paragraph: "§2 Abs. 1 BBG",
-  bussgeld: 80000,
-  haft: 0,
-  delikt: "Körperverletzung durch Schusswaffengebrauch",
-  beschlagnahmung: "Waffe + Polizei Waffenschein",
-  notiz: "-"
-},
-
-{
-  kategorie: "BBG §2 - Körperliche Integrität",
-  paragraph: "§2 Abs. 2 BBG",
-  bussgeld: 100000,
-  haft: 0,
-  delikt: "Körperverletzung mit Todesfolge durch Schusswaffengebrauch",
-  beschlagnahmung: "Waffe + Polizei Waffenschein",
-  notiz: "-"
-},
-
-{
-  kategorie: "BBG §2 - Körperliche Integrität",
-  paragraph: "§2 Abs. 3 BBG",
-  bussgeld: 50000,
-  haft: 0,
-  delikt: "Körperverletzung durch Tazergebrauch",
-  beschlagnahmung: "Tazer",
-  notiz: "-"
-},
 
   ];
 
@@ -1153,9 +756,7 @@ const filtered = delikte.filter((x) => {
 
 </div>
       <div className="bg-[#0d1320] border border-[#1e293b] rounded-2xl p-4 mb-4 text-sm text-zinc-300">
-        Exekutive - Höchstmaß: 60 Mon. Haft / 150.000 $ für Familien / 100.000$ für Zivis - mit DOJ: 90 Mon. / 250.000 $ für Familien / 150.000 $ für Zivis. Familien - 12er - 1 mio. (mind. 10 von einer Familie müssen beteiligt sein) 
- 	
-Bei 15 pkt. erfolgt der Führerschein entzug
+        Exekutive - Höchstmaß: 100 Mon. Haft / 200.000 $ Bei 15 pkt. erfolgt der Führerschein entzug
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-[1fr_360px] gap-4">
